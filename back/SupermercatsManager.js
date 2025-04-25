@@ -77,12 +77,14 @@ class SupermercatManager {
               } else {
                 console.log('SKU no encontrado');
                 console.log('2 error: ', err);
-                reject('non-processable');
+                // reject('non-processable');
+                reject(err);
               }
             })
             .catch((err) => {
               console.log('1 error: ', err);
-              reject('non-processable');
+              // reject('non-processable');
+              reject(err);
             });
         }
       }
