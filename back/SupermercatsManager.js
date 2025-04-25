@@ -87,18 +87,19 @@ class SupermercatManager {
                 console.log('SKU no encontrado');
                 console.log('2 error: ', err);
                 // reject('non-processable');
-                reject(err);
+                reject(JSON.stringify(err));
               }
             })
             .catch((err) => {
               console.log('1 error: ', err);
               // reject('non-processable');
-              reject(err);
+              reject(JSON.stringify(err));
             });
         }
       }
       //
       else {
+        console.log('not-valid-url');
         reject('not-valid-url');
       }
     });
@@ -146,8 +147,9 @@ class SupermercatManager {
                 resolve(html); // Resolvemos la promesa con el código fuente de la página
               })
               .catch((error) => {
+                console.log('ch7 error: ', error);
                 browser.close();
-                reject(error); // Rechazamos la promesa si hay algún error
+                reject(JSON.stringify(error)); // Rechazamos la promesa si hay algún error
               });
           });
         })
