@@ -31,7 +31,7 @@ const supermercat = new SupermercatManager();
 app.listen(PORT, () => {
   console.log(
     debug.TYPE.INFO,
-    'main.js - ',
+    '1) main.js - ',
     'app.listen() - ',
     `Entra en: http://${IP}:${PORT}`
   );
