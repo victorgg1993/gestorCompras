@@ -44,11 +44,18 @@ class SupermercatManager {
   }
 
   getProductCarrefour(url) {
+    console.log('ch0');
+
     return new Promise((resolve, reject) => {
+      console.log('ch0.1');
+
       // format "predecible"
       if (url.includes('www.carrefour.es')) {
+        console.log('ch0.2');
         //
         if (url.includes('R-VC4AECOMM')) {
+          console.log('ch0.3');
+
           let prodID = url.split('/');
           prodID = prodID[prodID.length - 2].split('-').at(-1);
 
@@ -60,7 +67,9 @@ class SupermercatManager {
         }
         // format "no predecible"
         else {
-          this.getProducteFotutCarrefour(url)
+          console.log('ch0.4');
+
+          this.getProducteNoPredecibleCarrefour(url)
             .then((html) => {
               const match = html.match(/"sku"\s*:\s*"(\d+)"/);
 
@@ -92,27 +101,10 @@ class SupermercatManager {
       else {
         reject('not-valid-url');
       }
-
-      // ----------------------- Formato predecible
-      // nesquik
-      // URL: https://www.carrefour.es/supermercado/cacao-soluble-instantaneo-nestle-nesquik-sin-gluten-390-g/R-VC4AECOMM-580913/p
-      // POST: https://www.carrefour.es/cloud-api/one-cart-api/v1/carts/current/items/5809130000?quantity=1&site=food&added_from=product&product_id=VC4AECOMM-580913
-      // img: https://static.carrefour.es/hd_510x_/img_pim_food/580913_00_1.jpg
-
-      // ----------------------- Formato no predecible ( no tenen VC4AECOMM )
-      // crema de verduras:
-      // URL: https://www.carrefour.es/supermercado/crema-de-verduras-mediterraneas-classic-carrefour-sin-gluten-500-ml/R-prod1130075/p
-      // POST: https://www.carrefour.es/cloud-api/one-cart-api/v1/carts/current/items/1777380000?quantity=1&site=food&added_from=product&product_id=prod1130075
-      // img: https://static.carrefour.es/hd_510x_/img_pim_food/177738_00_1.jpg
-
-      // oreo
-      // URL: https://www.carrefour.es/supermercado/galletas-de-chocolate-rellenas-de-crema-oreo-154-g/R-526510911/p
-      // POST: https://www.carrefour.es/cloud-api/one-cart-api/v1/carts/current/items/2557050000?quantity=1&site=food&added_from=product&product_id=526510911
-      // img: https://static.carrefour.es/hd_510x_/img_pim_food/255705_00_1.jpg
     });
   }
 
-  getProducteFotutCarrefour(url) {
+  getProducteNoPredecibleCarrefour(url) {
     console.log('ch1');
     return new Promise((resolve, reject) => {
       puppeteer
