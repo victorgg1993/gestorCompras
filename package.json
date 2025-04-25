@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "PORT=3037 node ./index.js",
-    "postinstall": "puppeteer install"
+    "postinstall": "node install-chrome.js"
   },
   "author": "",
   "license": "ISC",
