@@ -1,0 +1,732 @@
+@forward "./responsive";
+
+:host {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  .hide {
+    display: none;
+  }
+
+  .col-esquerra {
+    // height: 100%;
+    width: 300px;
+    // overflow-y: scroll;
+
+    &::ng-deep {
+      .p-accordion-content {
+        padding: 0.25rem 0 0 0;
+      }
+      .input-lupa-col-e {
+        width: 100%;
+      }
+    }
+
+    .lupa-busqueda-col-e {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      width: 100%;
+      height: 49px;
+
+      .p-input-icon-left {
+        width: 100%;
+
+        .p-input-icon-lupa {
+          display: flex !important;
+          position: absolute;
+          height: 100%;
+          top: 0;
+          align-items: center;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .col-e-producte {
+      display: grid;
+      grid-template-columns: auto 4.5em 5.5em;
+      grid-template-rows: 2em 7em;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "col-e-prod-titol col-e-prod-titol col-e-prod-titol"
+        "col-e-prod-img    col-e-prod-edit   col-e-prod-buy";
+
+      margin-bottom: 5px;
+      padding-bottom: 3px;
+      // margin-left: 5px;
+      // margin-right: 5px;
+      width: 100%;
+
+      border-bottom: 1px solid #c4c3c3;
+
+      .col-e-elem-prod {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .col-e-prod-img {
+        grid-area: col-e-prod-img;
+
+        .img-col-e {
+          // border: 1px solid red;
+          width: 90px;
+        }
+      }
+
+      .col-e-prod-titol {
+        grid-area: col-e-prod-titol;
+        font-size: 12pt;
+      }
+
+      .col-e-prod-edit {
+        grid-area: col-e-prod-edit;
+
+        .col-e-btn-edit {
+          color: #22c55e;
+          width: 50px;
+          height: 50px;
+          background-color: unset;
+          border: unset;
+          border-radius: 50%;
+
+          font-size: 20pt;
+
+          transition: color 0.1s ease, box-shadow 0.1s ease;
+
+          &:hover {
+            cursor: pointer;
+            color: #15803d;
+          }
+          &:active {
+            -webkit-box-shadow: 0px 0px 6px 2px #22c55e;
+            -moz-box-shadow: 0px 0px 6px 2px #22c55e;
+            box-shadow: 0px 0px 6px 2px #22c55e;
+          }
+        }
+      }
+
+      .col-e-prod-buy {
+        grid-area: col-e-prod-buy;
+
+        .col-e-btn-buy {
+          color: #2263c5;
+          width: 50px;
+          height: 50px;
+
+          background-color: unset;
+          border: unset;
+          border-radius: 50%;
+
+          font-size: 24pt;
+
+          transition: color 0.1s ease, box-shadow 0.1s ease;
+
+          &:hover {
+            cursor: pointer;
+            color: #152a80;
+          }
+          &:active {
+            -webkit-box-shadow: 0px 0px 6px 2px #2243c5;
+            -moz-box-shadow: 0px 0px 6px 2px #2243c5;
+            box-shadow: 0px 0px 6px 2px #2243c5;
+          }
+        }
+      }
+    }
+
+    .col-e-wrapper-accordion {
+      height: calc(
+        100% - 49px
+      ); // mirar de fer-ho millor ( els 49px venen de .lupa-busqueda-col-e )
+      overflow-y: scroll;
+    }
+  }
+
+  .col-central {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+
+    // ------------------------------------ <forçar estils cards>
+    &::ng-deep.p-orderlist-controls {
+      display: none;
+    }
+
+    & ::ng-deep.p-element.p-card_board-wrapper {
+      // &::ng-deep.p-card {
+      width: 900px !important;
+      height: 95vh !important;
+    }
+    &::ng-deep.p-card-body {
+      padding: 0;
+    }
+    &::ng-deep.p-card.p-component {
+      height: 100%;
+    }
+
+    &::ng-deep.p-card-content {
+      padding: 0;
+      padding-bottom: 10px;
+    }
+    &::ng-deep.cdk-drop-list.p-orderlist-list {
+      border-bottom: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    // ------------------------------------ </forçar estils cards>
+
+    // ------------------------------------ <forçar estils llista pròxima compra>
+    &::ng-deep.p-orderlist-list {
+      li {
+        background: white;
+        box-shadow: none;
+        color: #495057;
+
+        &:hover {
+          cursor: default;
+          background: #e9ecef;
+        }
+      }
+    }
+    &::ng-deep.p-orderlist-list-container {
+      ul {
+        max-height: 48.5rem !important;
+      }
+    }
+    // ------------------------------------ </forçar estils llista pròxima compra>
+
+    .product-list-detail {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      pointer-events: auto;
+      // border: 1px solid blue;
+      border-bottom: 1px solid rgb(176, 176, 177);
+      height: 150px;
+
+      .prod-list-detail-img {
+        width: 140px;
+        height: 140px;
+      }
+
+      .btn-edicio {
+        display: flex;
+        margin-left: 10px;
+
+        .btn {
+          margin: 0 4px;
+        }
+
+        .primeng-board-textarea-task,
+        .btn {
+          z-index: 1; // per a poder fer-li click
+        }
+      }
+
+      ::ng-deep p-inputnumber {
+        height: 35px;
+      }
+
+      ::ng-deep.p-element.p-button-icon-only.p-button-info.p-inputnumber-button.p-inputnumber-button-down.p-button.p-component.ng-star-inserted,
+      ::ng-deep.p-element.p-button-icon-only.p-button-info.p-inputnumber-button.p-inputnumber-button-up.p-button.p-component.ng-star-inserted {
+        width: 30px;
+      }
+
+      ::ng-deep.p-inputtext.p-component.p-element.p-inputnumber-input {
+        width: 60px;
+        font-size: 15pt;
+        text-align: center;
+      }
+    }
+
+    .product-title {
+      font-size: 20pt;
+      width: 300px;
+    }
+
+    .product-recurrent {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      margin-bottom: 36px;
+      // border: 1px solid red;
+
+      .prod-rec-titol {
+        // margin-bottom: 5px;
+      }
+    }
+
+    .p-card_board-wrapper {
+      margin: 6px;
+      width: 25rem;
+
+      // @include only_mobile {
+      //   margin-left: 0px;
+      //   margin-right: 0px;
+      //   margin-bottom: 20px;
+      //   width: 100%;
+      // }
+
+      .header-card {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .titol-header-card {
+          font-size: 15pt;
+          font-weight: 700;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+            "Segoe UI Symbol";
+          color: rgba(52, 58, 64, 0.832);
+
+          border: none;
+          resize: none;
+          height: 2.5rem;
+          width: 12.5rem;
+
+          margin-bottom: 0px;
+
+          &:read-only {
+            background-color: #f8f9fa;
+            height: 2.5rem;
+            margin-bottom: 0px;
+          }
+        }
+
+        .botons-header-card {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+
+          .btn {
+            margin-left: 3px;
+            margin-right: 3px;
+          }
+        }
+      }
+    }
+
+    // ---------------------------------- nous
+    .primeng-board-textarea-task {
+      resize: none;
+      width: 230px;
+      height: 100px;
+    }
+
+    .tmpl-footer {
+      display: flex;
+      align-items: center;
+      margin: 0 10px;
+      padding-bottom: 10px;
+
+      .footer-txta {
+        resize: none;
+        height: 60px;
+        display: flex;
+        flex-grow: 1;
+      }
+    }
+    // botó esborrar
+    // &::ng-deep.p-element.p-button-rounded.p-button-danger.p-button.p-component.p-button-icon-only {
+    //   width: 32px;
+    //   height: 32px;
+    // }
+
+    // ----------------------------------
+
+    // ----------------------------------
+    .class-pcn-box {
+      min-width: 300px;
+      height: 50px;
+    }
+
+    .pcn-board-navbar {
+      display: flex;
+      position: fixed;
+      width: 100%;
+      height: 60px;
+      flex: 0 1 auto;
+      background-color: rgba(0, 0, 0, 0.058);
+      z-index: 1;
+    }
+
+    .pcn-board-body {
+      display: flex;
+      flex-flow: column;
+      height: 100%;
+
+      .pcn-board-wrapper-title {
+        display: flex;
+        position: relative;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        box-sizing: content-box;
+        height: 60px;
+
+        .pcn-title-background {
+          position: absolute;
+          background-color: black;
+          width: 100%;
+          height: 100%;
+          box-sizing: content-box;
+          opacity: 0.1;
+          font-size: 23px;
+        }
+      }
+
+      .pcn-board-title {
+        display: flex;
+        justify-content: center;
+        font-size: 15pt;
+        margin-right: 10px;
+      }
+
+      .pcn-board-llistes {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        // padding-left: 10px;
+        // padding-right: 10px;
+
+        pcn-card {
+          margin-bottom: 10px;
+        }
+      }
+
+      .--pcn-card {
+        display: flex;
+        flex-flow: column;
+        min-height: inherit;
+      }
+
+      .pcn-board-list-header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 20px;
+        // margin-right: 10px;
+        width: 100%;
+      }
+
+      .pcn-board-spacer {
+        display: flex;
+        // width: 30px;
+        flex: 1 1 auto;
+      }
+
+      .pcn-board-list-title {
+        display: flex;
+        flex: 4 1 auto;
+      }
+
+      .pcn--listat-de-botons {
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 2 1 auto;
+      }
+
+      .pcn-board-list-add,
+      .pcn-board-list {
+        margin: 0px 8px;
+        padding: 5px;
+      }
+
+      // @include only_mobile {
+      //   .pcn-board-list-add,
+      //   .pcn-board-list {
+      //     margin: 0;
+      //     padding: 0;
+      //   }
+      // }
+
+      .pcn-board-list {
+        width: 300px;
+      }
+
+      .pcn-board-list-add {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      .pcn-board-llistat-tasques {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        flex: 1;
+
+        overflow-x: unset;
+        overflow-y: auto;
+        overflow-y: scroll;
+        // max-height: 400px;
+
+        .pcn-board-tasca {
+          display: flex;
+          justify-content: center;
+          box-sizing: content-box;
+          overflow-y: scroll;
+
+          margin-bottom: 10px;
+          padding: 6px 0px;
+          // width: 350px;
+
+          // .pcn-board-input-task {
+          //   width: 100%;
+          //   margin: 0px 9px;
+          // }
+          .pcn-textarea-wrapper {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            width: 100%;
+
+            .pcn-textarea-container {
+              display: flex;
+              position: relative;
+              cursor: pointer;
+              margin-left: 10px;
+
+              .pcn-textarea-line {
+                position: absolute;
+                border-top: 3px solid rgb(48, 48, 48);
+                width: 100%;
+                height: 10px;
+                top: 50%;
+                z-index: 1;
+              }
+
+              // .pcn-board-textarea-task {
+              //   width: 325px;
+              // }
+            }
+            // @include only_mobile {
+            //   .pcn-textarea-container {
+            //     flex: 8 10 auto;
+
+            //     // width: 100%; // temporal
+            //   }
+            // }
+
+            .pcn-board-task-buttons {
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+              width: auto;
+            }
+            // @include only_mobile {
+            //   pcn-button {
+            //     flex: 2 10 auto;
+
+            //     margin-right: 10px;
+            //     margin-left: 10px;
+            //   }
+            // }
+          }
+        }
+      }
+
+      .pcn-board-nova-sub-board,
+      .pcn-board-nova-tasca {
+        display: flex;
+        width: 100%;
+        padding-top: 10px;
+
+        justify-content: space-around;
+        align-items: center;
+
+        // margin-bottom: 10px;
+        box-sizing: content-box;
+
+        .pcn-board-nova-tasca-botons {
+          display: flex;
+          width: auto;
+          flex-flow: row nowrap;
+          align-items: center;
+          margin-left: 10px;
+          box-sizing: content-box;
+        }
+
+        // @include only_mobile {
+        //   .pcn-board-nova-tasca-botons {
+        //     width: 130px;
+        //     height: 100%;
+
+        //     pcn-button {
+        //       width: 100%;
+        //     }
+        //   }
+        // }
+      }
+
+      // @include only_mobile {
+      //   .pcn-board-nova-tasca {
+      //     height: 60px;
+      //   }
+      // }
+
+      .pcn-board-nova-sub-board {
+        padding-top: 6px;
+        width: 100%;
+      }
+    }
+
+    .p-card-afegir {
+      margin: 6px;
+
+      .header-afegir-card {
+        background: #f8f9fa;
+        color: #343a40;
+        border: 1px solid #dee2e6;
+        border-bottom-color: rgb(222, 226, 230);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        padding: 1.25rem;
+        border-bottom: 0 none;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+
+        margin-bottom: 8px;
+
+        .titol-header-afegir-card {
+          font-size: 15pt;
+          font-weight: 700;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+            "Segoe UI Symbol";
+          color: rgba(52, 58, 64, 0.832);
+        }
+      }
+
+      .input-i-boto {
+        padding: 1.25rem;
+
+        input {
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    // ------------------------------------------------------------------- responsive
+    // @include only_mobile {
+    // }
+
+    .--pcn-button {
+      margin: 0px 5px;
+    }
+  }
+
+  .col-dreta {
+    display: flex;
+    flex-flow: column;
+
+    height: 100%;
+    width: 600px;
+
+    .fila-add-product {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 20px;
+
+      .wrapper-titol-afegir-producte {
+      }
+
+      .titol-add-product {
+        font-size: 15pt;
+      }
+
+      .boto-add-product {
+        margin-left: 12px;
+      }
+    }
+
+    .fila-data {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 17pt;
+
+      .fila-data-titol {
+        padding-right: 5px;
+      }
+
+      .fila-data-date {
+      }
+
+      .dropdown-idioma {
+        margin-left: 15px;
+      }
+    }
+
+    .fila-supermercat {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      flex: 0.5;
+      margin-top: 18px;
+      margin-bottom: 18px;
+    }
+
+    .fila-elements {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      flex: 0.3;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      margin-top: 18px;
+      margin-bottom: 18px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .fila-compra {
+      display: flex;
+      flex-flow: column;
+      flex: 1;
+      margin-top: 18px;
+      margin-bottom: 18px;
+
+      .fila-compra--num-compra {
+      }
+
+      .fila-compra--botons-next-before {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1;
+      }
+    }
+
+    .fila-compra--botons-generacio-comprar {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-evenly;
+      height: 150px;
+    }
+  }
+}

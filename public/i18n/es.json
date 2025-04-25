@@ -1,0 +1,82 @@
+{
+  "accept": "Aceptar",
+  "cancel": "Cancelar",
+  "columnaEsquerra": {
+    "searchPlaceholder": "Buscar"
+  },
+  "columnaCentral": {
+    "searchPlaceholder": "Filtrar por nombre"
+  },
+  "columnaDreta": {
+    "text": {
+      "addProduct": "Añadir producto",
+      "lastDateText": "Fecha última compra",
+      "purchaseNumber": "nº compra",
+      "elements": "Elementos",
+      "total": "Total"
+    },
+    "button": {
+      "before": "Anterior",
+      "after": "Siguiente",
+      "generateCookie": "Generar cookie",
+      "purchase": "Comprar"
+    }
+  },
+  "dialog": {
+    "edit": {
+      "load": "Cargar"
+    },
+    "remove": {}
+  },
+  "categorias": {
+    "desdejuniEsporadic": "Desayuno esporádico",
+    "desdejuniRecurrent": "Desayuno recurrente",
+    "dinarEsporadic": "Almuerzo esporádico",
+    "dinarRecurrent": "Almuerzo recurrente",
+    "dinarReserva": "Almuerzo reserva",
+    "soparEsporadic": "Cena esporádico",
+    "soparRecurrent": "Cena recurrente",
+    "ensalades": "Ensaladas",
+    "postres": "Postres",
+    "salses": "Salsas",
+    "especias": "Especias",
+    "menjarAltres": "Comida otros",
+    "fungiblesCuina": "Fungibles cocina",
+    "higienePersonal": "Higiene personal",
+    "netejaLavabo": "Limpieza baño"
+  },
+  "mesos": {
+    "gen": "Enero",
+    "feb": "Febreo",
+    "mar": "Marzo",
+    "abr": "Abril",
+    "mai": "Mayo",
+    "jun": "Junio",
+    "jul": "Julio",
+    "ago": "Agosto",
+    "set": "Septiembre",
+    "oct": "Octubre",
+    "nov": "Noviembre",
+    "des": "Diciembre"
+  },
+  "toast": {
+    "remove": {
+      "title": "Eliminar producto",
+      "body": "Estás a punto de eliminar el producto. Operación irreversible. ¿Estás seguro?"
+    },
+    "addProduct": {
+      "ok": {
+        "title": "Petición correcta",
+        "body": "La petición fue correcta"
+      },
+      "error": {
+        "title": "Error!",
+        "body": "Error en la petición"
+      }
+    },
+    "cookie": {
+      "title": "Generar cookie",
+      "body": "Cookie generada!. Ya la tienes en el clipboard."
+    }
+  }
+}

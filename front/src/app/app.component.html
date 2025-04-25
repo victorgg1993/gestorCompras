@@ -1,0 +1,255 @@
+<div class="col-esquerra">
+  <div class="lupa-busqueda-col-e">
+    <span class="p-input-icon-left">
+      <i class="p-input-icon-lupa pi pi-search"></i>
+      <input
+        class="input-lupa-col-e"
+        type="text"
+        pInputText
+        [(ngModel)]="textInputCategories"
+        placeholder="{{ 'columnaEsquerra.searchPlaceholder' | translate }}"
+      />
+    </span>
+  </div>
+
+  <div class="col-e-wrapper-accordion">
+    <p-accordion
+      class="col-e-p-accordion"
+      [activeIndex]="[0]"
+      [multiple]="true"
+    >
+      <p-accordionTab
+        *ngFor="
+          let categoria of compres.categoriesSubject.getValue()
+            | filterCategories : textInputCategories
+        "
+        header="{{ categoria.title | translate }}"
+      >
+        <div
+          class="col-e-producte"
+          *ngFor="let producte of categoria.productes"
+        >
+          <div class="col-e-elem-prod col-e-prod-titol">
+            {{ producte.titol }}
+          </div>
+
+          <div class="col-e-elem-prod col-e-prod-img">
+            <img
+              class="img-col-e"
+              src="{{ getSupermercatImage(producte) }}"
+              alt="imatge categories"
+            />
+          </div>
+
+          <div class="col-e-elem-prod col-e-prod-edit">
+            <p-button
+              class="col-e-btn-edit"
+              icon="pi pi-pencil"
+              [rounded]="true"
+              [outlined]="true"
+              styleClass="p-button-success"
+              (click)="editarProducte(producte)"
+            ></p-button>
+          </div>
+
+          <div class="col-e-elem-prod col-e-prod-buy">
+            <p-button
+              class="col-e-btn-buy"
+              icon="pi pi-shopping-cart"
+              [rounded]="true"
+              [outlined]="true"
+              (click)="insertarProducte(producte)"
+            ></p-button>
+          </div>
+        </div>
+      </p-accordionTab>
+    </p-accordion>
+  </div>
+</div>
+
+<div class="col-central">
+  <div class="pcn-board-body">
+    <div>
+      <div class="pcn-board-llistes">
+        <p-card class="p-card_board-wrapper">
+          <p-orderList
+            [value]="vistaProximaCompra"
+            [listStyle]="{ 'max-height': '17rem' }"
+            filterBy="tags"
+            filterPlaceholder="{{
+              'columnaCentral.searchPlaceholder' | translate
+            }}"
+            [dragdrop]="false"
+          >
+            <ng-template let-item pTemplate="item" let-i="index">
+              <div class="product-item">
+                <div class="product-list-detail">
+                  <img
+                    class="prod-list-detail-img"
+                    src="{{ getSupermercatImage(item) }}"
+                    alt="imatge categories"
+                  />
+
+                  <div class="product-title">
+                    {{ item.titol }}
+                  </div>
+                  <p-inputNumber
+                    [(ngModel)]="item.producte[superSeleccionat].unitats"
+                    [showButtons]="true"
+                    buttonLayout="horizontal"
+                    inputId="horizontal"
+                    spinnerMode="horizontal"
+                    [step]="1"
+                    [min]="1"
+                    decrementButtonClass="{{
+                      item.afegitUser ? 'p-button-success' : 'p-button-info'
+                    }}"
+                    incrementButtonClass="{{
+                      item.afegitUser ? 'p-button-success' : 'p-button-info'
+                    }}"
+                    incrementButtonIcon="pi pi-plus"
+                    decrementButtonIcon="pi pi-minus"
+                    (ngModelChange)="incrementDecrementProducte(item)"
+                  ></p-inputNumber>
+
+                  <div style="width: 50px">
+                    <p-button
+                      [ngClass]="{ hide: !item.afegitUser }"
+                      icon="pi pi-trash"
+                      [rounded]="true"
+                      [outlined]="true"
+                      styleClass=" p-button-danger"
+                      (click)="eliminarProducte(item)"
+                    ></p-button>
+
+                    <p-button
+                      [ngClass]="{ hide: item.afegitUser }"
+                      icon="pi pi-pencil"
+                      [rounded]="true"
+                      [outlined]="true"
+                      styleClass=" p-button-success"
+                      (click)="editarProducte(item)"
+                    ></p-button>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </p-orderList>
+        </p-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-dreta">
+  <div class="fila-data">
+    <h1 class="fila-data-titol">
+      {{ "columnaDreta.text.lastDateText" | translate }}
+    </h1>
+    <p class="fila-data-date">{{ dateUltimaCompra | datePrinter }}</p>
+    <div class="dropdown-idioma">
+      <p-dropdown
+        [options]="idiomasSoportados"
+        [(ngModel)]="idiomaSeleccionado"
+        (onChange)="cambiarIdioma($event)"
+      />
+    </div>
+  </div>
+
+  <div class="fila-add-product">
+    <div class="wrapper-titol-afegir-producte">
+      <h2 class="titol-add-product">
+        {{ "columnaDreta.text.addProduct" | translate }}
+      </h2>
+    </div>
+    <p-button
+      class="boto-add-product"
+      icon="pi pi-plus"
+      (click)="afegirProducte()"
+    ></p-button>
+  </div>
+
+  <div class="fila-supermercat">
+    <p-dropdown
+      [options]="this.supermercats"
+      [(ngModel)]="common.superSeleccionat"
+      optionLabel="name"
+      (ngModelChange)="onSupermercatCanviat($event)"
+    />
+  </div>
+
+  <div class="fila-elements">
+    <div>
+      {{ "columnaDreta.text.elements" | translate }}:
+      {{ vistaProximaCompra.length }}
+    </div>
+    <div>{{ "columnaDreta.text.total" | translate }}: {{ getTotal() }}</div>
+  </div>
+
+  <div class="fila-compra">
+    <div class="fila-compra--botons-next-before">
+      <p-button
+        label="{{ 'columnaDreta.button.before' | translate }}"
+        icon="pi pi-chevron-left"
+        [disabled]="
+          compres.pCompra == 0 ||
+          ultimNumCompra - numCompresDone >= compres.pCompra
+        "
+        (click)="compraAnterior()"
+      ></p-button>
+
+      <div class="fila-compra--num-compra">
+        <p>
+          {{ "columnaDreta.text.purchaseNumber" | translate }}:
+          {{ compres.pCompra }}
+        </p>
+      </div>
+
+      <p-button
+        label="{{ 'columnaDreta.button.after' | translate }}"
+        icon="pi pi-chevron-right"
+        (click)="compraSeguent()"
+        iconPos="right"
+        [disabled]="compres.pCompra >= compres.numCompraActual"
+      ></p-button>
+    </div>
+  </div>
+
+  <div class="fila-compra--botons-generacio-comprar">
+    <p-button
+      label="{{ 'columnaDreta.button.generateCookie' | translate }}"
+      styleClass="p-button-success"
+      (click)="generarCookie(superSeleccionat)"
+    ></p-button>
+
+    <p-button
+      label="{{ 'columnaDreta.button.purchase' | translate }}"
+      styleClass="p-button-warning"
+      (click)="ferCompra()"
+    ></p-button>
+  </div>
+</div>
+
+<p-confirmDialog #cd class="dialog-confirmacio">
+  <ng-template pTemplate="footer">
+    <button
+      type="button"
+      pButton
+      icon="pi pi-check"
+      class="p-button-danger"
+      label="{{ 'accept' | translate }}"
+      (click)="cd.accept()"
+    ></button>
+    <button
+      type="button"
+      pButton
+      icon="pi pi-times"
+      class="p-button-success"
+      label="{{ 'cancel' | translate }}"
+      (click)="cd.reject()"
+    ></button>
+  </ng-template>
+</p-confirmDialog>
+<!-- <router-outlet></router-outlet> -->
+
+<p-toast></p-toast>

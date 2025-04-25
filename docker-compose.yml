@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  api:
+    container_name: GestorCompras
+    image: node:20-alpine
+    # això del final és una pirula per a que el contenedor no es tanqui després del install # && npm run start"
+    command: sh -c "npm run start"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"   # Tamaño máximo de cada archivo de log
+        max-file: "1"     # Número máximo de archivos de log
+    ports:
+      - '3037:3037'
+    restart: always
+    working_dir: /app
+    volumes:
+      - .:/app

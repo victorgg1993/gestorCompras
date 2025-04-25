@@ -1,0 +1,82 @@
+{
+  "accept": "Acceptar",
+  "cancel": "Cancel·lar",
+  "columnaEsquerra": {
+    "searchPlaceholder": "Cercar"
+  },
+  "columnaCentral": {
+    "searchPlaceholder": "Filtrar per nom"
+  },
+  "columnaDreta": {
+    "text": {
+      "addProduct": "Afegir producte",
+      "lastDateText": "Data última compra",
+      "purchaseNumber": "nº compra",
+      "elements": "Elements",
+      "total": "Total"
+    },
+    "button": {
+      "before": "Anterior",
+      "after": "Següent",
+      "generateCookie": "Generar cookie",
+      "purchase": "Comprar"
+    }
+  },
+  "dialog": {
+    "edit": {
+      "load": "Carregar"
+    },
+    "remove": {}
+  },
+  "categorias": {
+    "desdejuniEsporadic": "Desdejuni esporàdic",
+    "desdejuniRecurrent": "Desdejuni recurrent",
+    "dinarEsporadic": "Dinar esporàdic",
+    "dinarRecurrent": "Dinar recurrent",
+    "dinarReserva": "Dinar reserva",
+    "soparEsporadic": "Sopar esporàdic",
+    "soparRecurrent": "Sopar recurrent",
+    "ensalades": "Ensalades",
+    "postres": "Postres",
+    "salses": "Salses",
+    "especias": "Espècies",
+    "menjarAltres": "Menjar altres",
+    "fungiblesCuina": "Fungibles cuina",
+    "higienePersonal": "Higiène personal",
+    "netejaLavabo": "Neteja bany"
+  },
+  "mesos": {
+    "gen": "Gener",
+    "feb": "Febrer",
+    "mar": "Març",
+    "abr": "Abril",
+    "mai": "Maig",
+    "jun": "Juny",
+    "jul": "Juliol",
+    "ago": "Agost",
+    "set": "Setembre",
+    "oct": "Octubre",
+    "nov": "Novembre",
+    "des": "Desembre"
+  },
+  "toast": {
+    "remove": {
+      "title": "Esborrar producte",
+      "body": "Estàs apunt d'esborrar el producte. No pots tirar enrrera. N'estàs segur?"
+    },
+    "addProduct": {
+      "ok": {
+        "title": "Petició correcta",
+        "body": "La petició ha estat correcta"
+      },
+      "error": {
+        "title": "Error!",
+        "body": "Error en la petició"
+      }
+    },
+    "cookie": {
+      "title": "Generar cookie",
+      "body": "Cookie generada!. La tens en el clipboard."
+    }
+  }
+}

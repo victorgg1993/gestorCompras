@@ -1,0 +1,127 @@
+<div class="dialog-wrapper">
+  <div class="fila-up">
+    <div class="dialog-editar-header">
+      <div class="wrapper-input">
+        <input pInputText type="text" [(ngModel)]="_prod.titol" />
+      </div>
+
+      <p-dropdown
+        [options]="categoriasTraducidas"
+        [(ngModel)]="_prod.categoria"
+        placeholder="Categoria"
+        [ngClass]="{ 'error-dropdown-categoria': errorCategoria }"
+        (onChange)="onCategoriaCanviada($event)"
+      ></p-dropdown>
+    </div>
+  </div>
+
+  <div class="fila-down">
+    <p-tabView
+      [(activeIndex)]="indexTabActiva"
+      (onChange)="onTabChange($event)"
+    >
+      <p-tabPanel
+        *ngFor="let _super of _prod.supermercats"
+        header="{{ _super }}"
+      >
+        <div class="wrapper-tenda">
+          <div class="dialog-col-e">
+            <div class="dialog-galeria">
+              <p-galleria
+                [value]="getImatges(_super)"
+                [showIndicators]="true"
+                [showThumbnails]="false"
+              >
+                <ng-template pTemplate="item" let-item>
+                  <img src="{{ item }}" style="width: 100%; display: block" />
+                </ng-template>
+              </p-galleria>
+            </div>
+
+            <div class="wrapper-unitats">
+              <p-inputNumber
+                [(ngModel)]="unitatsSupermercat"
+                [showButtons]="true"
+                buttonLayout="horizontal"
+                spinnerMode="horizontal"
+                [step]="1"
+                [min]="1"
+                decrementButtonClass="p-button-info"
+                incrementButtonClass="p-button-info"
+                incrementButtonIcon="pi pi-plus"
+                decrementButtonIcon="pi pi-minus"
+              ></p-inputNumber>
+            </div>
+          </div>
+
+          <div class="dialog-col-d">
+            <div
+              *ngFor="let mes of _prod.mesos; let i = index"
+              class="dialog-col-d-mes"
+            >
+              <div class="dialog-mesos-title">
+                <h2>{{ mes | translate }}</h2>
+              </div>
+
+              <div class="dialog-checkboxes">
+                <p-checkbox
+                  *ngFor="let index of [0, 1]; let j = index"
+                  class="dialog-checkbox"
+                  [ngClass]="{
+                    'checkbox-actual': _prod.pCompra === i * 2 + j
+                  }"
+                  [(ngModel)]="tempDiesCompra[i * 2 + j]"
+                  [binary]="true"
+                ></p-checkbox>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper-carregar-producte">
+          <input
+            #linkarevisar
+            pInputText
+            type="text"
+            placeholder="url"
+            [(ngModel)]="selectedUrl"
+          />
+          <button
+            class="boto"
+            type="button"
+            pButton
+            label="{{'dialog.edit.load' | translate}}"
+            (click)="getProductInfo()"
+          ></button>
+        </div>
+      </p-tabPanel>
+    </p-tabView>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="dialog-footer p-d-flex p-ai-center p-jc-between">
+  <div class="footer-chips">
+    <p-chips [(ngModel)]="_prod.tags" placeholder="tags"></p-chips>
+  </div>
+
+  <div class="dialog-footer-buttons">
+    <button
+      type="button"
+      pButton
+      icon="pi pi-check"
+      class="p-button-success"
+      label="{{'accept' | translate}}"
+      (click)="acceptar()"
+      [disabled]="!isProductLoaded(_prod) || !categoriaOk"
+    ></button>
+    <button
+      type="button"
+      pButton
+      icon="pi pi-times"
+      class="p-button-danger"
+      label="{{'cancel' | translate}}"
+      (click)="cancelar()"
+    ></button>
+  </div>
+</div>

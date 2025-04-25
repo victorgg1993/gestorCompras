@@ -1,0 +1,4859 @@
+{
+  "comentarimesos": "no té cap sentit això, dones la volta per a res",
+  "mesos": [
+    "mesos.gen",
+    "mesos.feb",
+    "mesos.mar",
+    "mesos.abr",
+    "mesos.mai",
+    "mesos.jun",
+    "mesos.jul",
+    "mesos.ago",
+    "mesos.set",
+    "mesos.oct",
+    "mesos.nov",
+    "mesos.des"
+  ],
+  "supermercats": [
+    {
+      "name": "Carrefour",
+      "code": "crf"
+    },
+    {
+      "name": "Mercadona",
+      "code": "mcd"
+    }
+  ],
+  "categories": [
+    {
+      "title": "categorias.desdejuniEsporadic",
+      "productes": [
+        {
+          "tags": [
+            "cacao",
+            "en",
+            "pols",
+            "polvo",
+            "sin",
+            "sense",
+            "azucar",
+            "sucre",
+            "22580"
+          ],
+          "titol": "Cacao puro en polvo",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "22580",
+              "image": "https://prod-mercadona.imgix.net/images/a242186d5fa01c0e32a85edf624c0ff4.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "547966",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/547966_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "cafe",
+            "descafeinado",
+            "descafeinat",
+            "soluble",
+            "22164"
+          ],
+          "titol": "Café soluble descafeinado",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "22164",
+              "image": "https://prod-mercadona.imgix.net/images/112aa2d3c995cb6ed9b74e6b7b2993e1.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "230412",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/230412_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "cafe",
+            "descafeinado",
+            "descafeinat",
+            "soluble",
+            "22164"
+          ],
+          "titol": "Café soluble vainilla",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "22164",
+              "image": "https://prod-mercadona.imgix.net/images/112aa2d3c995cb6ed9b74e6b7b2993e1.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "121309",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/121309_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Mermelada de arándanos",
+          "tags": [
+            "35932",
+            "mermelada",
+            "arandanos",
+            "nabius",
+            "arandano",
+            "nabiu"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "35932",
+              "image": "https://prod-mercadona.imgix.net/images/1cb0e04e2c01974816092f738b1e4f00.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "448902",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/448902_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "miel",
+            "mel",
+            "mil",
+            "flores",
+            "flors",
+            "dosificador",
+            "bote",
+            "pot",
+            "15430"
+          ],
+          "titol": "Miel de flores",
+          "diesCompra": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15430",
+              "image": "https://prod-mercadona.imgix.net/images/12e08df918846820ae9cd7d8fe8b142b.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "377531",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/377531_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "titol": "Mermelada de ciruela-kiwi || cereza",
+          "tags": [
+            "22476",
+            "mermelada",
+            "kiwi"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "22476",
+              "image": "https://prod-mercadona.imgix.net/images/a1ec7ba89985f95f102b28ff5927578d.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "815092",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/815092_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "titol": "Mermelada de frambuesa",
+          "tags": [
+            "86033",
+            "frambuesa",
+            "mermelada",
+            "gerd",
+            "gerds"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "86033",
+              "image": "https://prod-mercadona.imgix.net/images/6ce143e06ac60efcbb769eac77ff1583.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "815142",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/815142_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "margarina",
+            "tarrina",
+            "500",
+            "gr",
+            "g",
+            "20846"
+          ],
+          "titol": "Margarina",
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "20846",
+              "image": "https://prod-mercadona.imgix.net/images/96365401c2c245884ba496888b95d046.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "299532",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/299532_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "cachuet",
+            "cacahuet",
+            "cachuete",
+            "cacahuete",
+            "mantega",
+            "manteca",
+            "crema",
+            "16883",
+            "mani"
+          ],
+          "titol": "Crema de cacahuete 100%",
+          "diesCompra": "0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "16883",
+              "image": "https://prod-mercadona.imgix.net/images/9d0421d18242395d0d51d29b56c4a2b4.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "489756",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/489756_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "ddl",
+            "dulce",
+            "de",
+            "leche",
+            "chimbote",
+            "tarro",
+            "pot",
+            "10286"
+          ],
+          "titol": "Dulce de leche Chimbote",
+          "diesCompra": "0-0-1-0-0-1-0-0-0-0-0-0-0-0-0-0-0-1-0-1-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "10286",
+              "image": "https://prod-mercadona.imgix.net/images/9b32f08fdda4bb2611b49421e0dc0fc7.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "385337",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/385337_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "mermelada",
+            "fresa",
+            "maduixa",
+            "hero",
+            "tarro",
+            "pot",
+            "15047"
+          ],
+          "titol": "Mermelada de fresa",
+          "diesCompra": "0-1-0-0-1-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15047",
+              "image": "https://prod-mercadona.imgix.net/images/c94ddc1e96c94f3f983fd60b9b1b9627.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "399348",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/399348_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "mermelada",
+            "melocoton",
+            "pressec",
+            "hero",
+            "tarro",
+            "pot",
+            "15048"
+          ],
+          "titol": "Mermelada de melocotón",
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15048",
+              "image": "https://prod-mercadona.imgix.net/images/42f3d4ca3729c1fde3f38e671c129740.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "802405",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/802405_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.desdejuniRecurrent",
+      "productes": [
+        {
+          "tags": [
+            "leche",
+            "llet",
+            "entera",
+            "sencera",
+            "1.5",
+            "1,5",
+            "9",
+            "L",
+            "ltr",
+            "Ltr",
+            "litre",
+            "litres",
+            "litro",
+            "litros",
+            "pack",
+            "botella",
+            "ampolla",
+            "10533"
+          ],
+          "titol": "Leche entera x6",
+          "diesCompra": "1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "10533",
+              "image": "https://prod-mercadona.imgix.net/images/a249d8c117fe18b76f39ab673082ebbc.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "971656",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/971656_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "bebida",
+            "beguda",
+            "suc",
+            "zumo",
+            "frutos",
+            "frutas",
+            "rojos",
+            "rojas",
+            "fruits",
+            "vermells",
+            "antioxidante",
+            "antioxidant",
+            "1",
+            "L",
+            "ltr",
+            "Ltr",
+            "litre",
+            "litres",
+            "litro",
+            "litros",
+            "brick",
+            "39640"
+          ],
+          "titol": "Bebida de frutas rojas antioxidante sin azúcares añadidos",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "39640",
+              "image": "https://prod-mercadona.imgix.net/images/92019639ecae89572482df9b0c428265.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "870957",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/870957_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "bebida",
+            "beguda",
+            "suc",
+            "zumo",
+            "tropical",
+            "1",
+            "L",
+            "ltr",
+            "Ltr",
+            "litre",
+            "litres",
+            "litro",
+            "litros",
+            "brick",
+            "39606"
+          ],
+          "titol": "Bebida tropical sin azúcares añadidos",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "39606",
+              "image": "https://prod-mercadona.imgix.net/images/fd183c1e38cba084d8987727ec2988a1.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "690521",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/690521_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "bebida",
+            "beguda",
+            "suc",
+            "zumo",
+            "nectar",
+            "maracuya",
+            "fruta",
+            "de",
+            "la",
+            "pasion",
+            "1",
+            "L",
+            "ltr",
+            "Ltr",
+            "litre",
+            "litres",
+            "litro",
+            "litros",
+            "brick",
+            "39643"
+          ],
+          "titol": "Néctar de maracuyá fruta de la pasión, mango, uva y manzana",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "39643",
+              "image": "https://prod-mercadona.imgix.net/images/52b181ea4dd2c6deace9e5ec0f0101c9.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "865489",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/865489_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "tortita",
+            "maiz",
+            "blat",
+            "de",
+            "moro",
+            "pack",
+            "4",
+            "paquet",
+            "paquets",
+            "paquete",
+            "paquetes",
+            "14158"
+          ],
+          "titol": "Tortitas de maíz",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "14158",
+              "image": "https://prod-mercadona.imgix.net/images/ae6bf2190ba5f2fdb01e6742aafe9632.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "086221",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/086221_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.dinarEsporadic",
+      "productes": [
+        {
+          "tags": [
+            "arroz",
+            "arros",
+            "vaporizado",
+            "vaporitzat",
+            "1kg",
+            "kg",
+            "1",
+            "5020"
+          ],
+          "titol": "Arroz vaporizado",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 0,
+              "id": "5020",
+              "image": "https://prod-mercadona.imgix.net/images/1c5a40f534247a5a8b8e16737c809be8.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 0,
+              "id": "523827",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/523827_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "tofu",
+            "tarrina",
+            "51097"
+          ],
+          "titol": "Tofu firme Frias",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "51097",
+              "image": "https://prod-mercadona.imgix.net/images/929b39de5cc78cb9f0de183075c9cb2f.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "134991",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/134991_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "arroz",
+            "arros",
+            "basmati",
+            "1kg",
+            "kg",
+            "1",
+            "5002"
+          ],
+          "titol": "Arroz basmati aromático",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-1-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "5002",
+              "image": "https://prod-mercadona.imgix.net/images/d25c062f26c257d9ca54b5fc219c2b62.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "724474",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/724474_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "arroz",
+            "arros",
+            "largo",
+            "llarg",
+            "1kg",
+            "kg",
+            "1",
+            "5063"
+          ],
+          "titol": "Arroz largo",
+          "diesCompra": "0-1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-1-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "5063",
+              "image": "https://prod-mercadona.imgix.net/images/801f924df0d429d82c0a136901dcb9b0.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "197726",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/197726_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "titol": "Lasaña de verduras ultracongelada",
+          "tags": [
+            "86599",
+            "lasaña",
+            "lassanya",
+            "verdures",
+            "verduras",
+            "reserva"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "86599",
+              "image": "https://prod-mercadona.imgix.net/images/fb8f7c9d2e2041f45ac0fa051a72b0d4.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "512983",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/512983_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "tags": [
+            "5491030000",
+            "69171"
+          ],
+          "producte": {
+            "mercadona": {
+              "id": "26114",
+              "image": "https://prod-mercadona.imgix.net/images/92db0b39b8fecc80fd22e3e2b157dcf4.jpg?fit=crop&h=200&w=200",
+              "unitats": 1,
+              "url": "https://tienda.mercadona.es/product/69171/verdura-crema-calabaza-hacendado-contiene-calabaza-patata-zanahoria-puerro-bandeja"
+            },
+            "carrefour": {
+              "id": "5491030000",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/549103_00_1.jpg",
+              "unitats": 1,
+              "url": "https://www.carrefour.es/supermercado/caldo-de-verduras-desgrasado-carrefour-12-pastillas/R-VC4AECOMM-549103/p"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "categorias.dinarRecurrent",
+      "productes": [
+        {
+          "titol": "Aceitunas negras sin hueso",
+          "tags": [
+            "33249",
+            "oliva",
+            "olives",
+            "aceituna",
+            "aceitunas",
+            "negre",
+            "negra",
+            "negres",
+            "negras"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "33249",
+              "image": "https://prod-mercadona.imgix.net/images/f35c5eb1937f554893c9c6f005b7eb49.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "488032",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/488032_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "garbanzo",
+            "jardinera",
+            "cigro",
+            "cigrons",
+            "tarro",
+            "pot",
+            "26110"
+          ],
+          "titol": "Garbanzos a la jardinera",
+          "diesCompra": "1-0-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "26110",
+              "image": "https://prod-mercadona.imgix.net/images/cd675e0d262e373b15032c52c8ec25bf.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "128386",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/128386_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "alubia",
+            "blanca",
+            "mongeta",
+            "tarro",
+            "pot",
+            "26019"
+          ],
+          "titol": "Alubia cocida blanca",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "26019",
+              "image": "https://prod-mercadona.imgix.net/images/4ec09419bc9fa7bcc4e3f4eee26c6fa4.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "686224",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/686224_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "alubia",
+            "roja",
+            "vermella",
+            "mongeta",
+            "monjeta",
+            "frijol",
+            "frijoles",
+            "cocida",
+            "26000"
+          ],
+          "titol": "Alubia cocida roja",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "26000",
+              "image": "https://prod-mercadona.imgix.net/images/3efc8fd194bd5fbf7934972d941e3cfe.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "784128",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/784128_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "empanados",
+            "vegetales",
+            "vegetal",
+            "menjar",
+            "preparat",
+            "tonkatsu",
+            "23249"
+          ],
+          "titol": "Empanados vegetales con proteina de soja Tivall",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "23249",
+              "image": "https://prod-mercadona.imgix.net/images/7fcacc69aa6199a8ba14773a7c4fa83c.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "304838",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/304838_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "tomate",
+            "tomaquet",
+            "frito",
+            "fregit",
+            "tarro",
+            "17108"
+          ],
+          "titol": "Tomate frito",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "17108",
+              "image": "https://prod-mercadona.imgix.net/images/80f47b9ceb89f9e0ec69b6df0fc11fed.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "365663",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/365663_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "champiñon",
+            "champiñones",
+            "champinyo",
+            "champinyons",
+            "lamina",
+            "laminat",
+            "lamines",
+            "bolet",
+            "bolets",
+            "seta",
+            "setas",
+            "bandeja",
+            "mix",
+            "suave",
+            "suau",
+            "69876"
+          ],
+          "titol": "Mix de setas suave",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69876",
+              "image": "https://prod-mercadona.imgix.net/images/3fc7d7ded0dfbac14a42dbbbf73eef39.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "271648",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/271648_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "seitan",
+            "menjar",
+            "comida",
+            "preparat",
+            "preparado",
+            "preparada",
+            "86527"
+          ],
+          "titol": "Seitán",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "86527",
+              "image": "https://prod-mercadona.imgix.net/images/8b2f14b97f54c943ce79c2607e17d5e0.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "559853",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/559853_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "lenteja",
+            "pardina",
+            "llentia",
+            "llenties",
+            "tarro",
+            "pot",
+            "26030"
+          ],
+          "titol": "Lenteja cocida",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "26030",
+              "image": "https://prod-mercadona.imgix.net/images/7ed97e71403d2dc0a1154e3265931cf2.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "686242",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/686242_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "pasta",
+            "spaghetti",
+            "espagueti",
+            "6245"
+          ],
+          "titol": "Spaghetti",
+          "diesCompra": "1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "6245",
+              "image": "https://prod-mercadona.imgix.net/images/3a7e46ed332908a73cfe47f424e399c7.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "226608",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/226608_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "titol": "Escalopines de salmón sin espinas",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "tags": [
+            "salmon",
+            "salmo",
+            "fresc",
+            "fresco",
+            "filet",
+            "filete",
+            "escalopin",
+            "espinas",
+            "sin",
+            "sense",
+            "bandeja",
+            "80908"
+          ],
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "80908",
+              "image": "https://prod-mercadona.imgix.net/images/ff4c8b97c0eba95f98157a46ede9c75d.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "145070",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/145070_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "categorias.dinarReserva",
+      "productes": [
+        {
+          "tags": [
+            "lasaña",
+            "lassanya",
+            "espinacas",
+            "espinaques",
+            "requeson",
+            "formatge",
+            "badeja",
+            "4491"
+          ],
+          "titol": "Lasaña de espinacas y requesón",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "4491",
+              "image": "https://prod-mercadona.imgix.net/images/e18ca50418255f804659ba7bf4daff18.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "215427",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/215427_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "categorias.soparEsporadic",
+      "productes": [
+        {
+          "tags": [
+            "impulsor",
+            "royal",
+            "sobre",
+            "29225"
+          ],
+          "titol": "Impulsor gasificante en polvo Royal uso alimentario",
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "29225",
+              "image": "https://prod-mercadona.imgix.net/images/ef7a4f00c8d941bc9489ffc523293e79.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "613458",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/613458_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "semola",
+            "trigo",
+            "blat",
+            "de",
+            "fina",
+            "80291"
+          ],
+          "titol": "Sémola de trigo",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "80291",
+              "image": "https://prod-mercadona.imgix.net/images/ba0bb8366510fd95b266e90d46bb7489.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "016310",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/016310_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "caldo",
+            "pastilla",
+            "pastilles",
+            "pastillas",
+            "deshidratado",
+            "deshidratat",
+            "vegetal",
+            "15592"
+          ],
+          "titol": "Caldo de verduras en pastillas",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15592",
+              "image": "https://prod-mercadona.imgix.net/images/7310a1207b338fae9b40afe45d13fdfe.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "270669",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/270669_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "aceituna",
+            "aceitunas",
+            "oliva",
+            "olives",
+            "rellena",
+            "llauna",
+            "lata",
+            "conserva",
+            "22911"
+          ],
+          "titol": "Aceitunas manzanilla rellenas de anchoa",
+          "diesCompra": "0-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "22911",
+              "image": "https://prod-mercadona.imgix.net/images/cc1ca60ef2986c990f6f235afd216148.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "441977",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/441977_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "piña",
+            "pinya",
+            "rodaja",
+            "llauna",
+            "lata",
+            "conserva",
+            "15203"
+          ],
+          "titol": "Piña en su jugo rodajas",
+          "diesCompra": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15203",
+              "image": "https://prod-mercadona.imgix.net/images/a2447173e0a3dc809e09c4f09f2f7c53.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "689490",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/689490_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "pimiento",
+            "pebrot",
+            "asado",
+            "rostit",
+            "tiras",
+            "tires",
+            "16124"
+          ],
+          "titol": "Pimientos rojos asados en tiras extra",
+          "diesCompra": "1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "16124",
+              "image": "https://prod-mercadona.imgix.net/images/97566f232ed4e81feeda228480a2b531.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "307741",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/307741_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.soparRecurrent",
+      "productes": [
+        {
+          "tags": [
+            "pan",
+            "pa",
+            "hamburguesa",
+            "4",
+            "paquet",
+            "paquete",
+            "pack",
+            "unitats",
+            "unidades",
+            "ud",
+            "uds",
+            "60251"
+          ],
+          "titol": "Pan de hamburguesa Rústico 100% integral",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "60251",
+              "image": "https://prod-mercadona.imgix.net/images/34879362d8edbe89390733a68c46fac4.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "230242",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/230242_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "champiñon",
+            "xampinyo",
+            "fresco",
+            "fresc",
+            "entero",
+            "sencer",
+            "gran",
+            "grande",
+            "bandeja",
+            "safata",
+            "bolet",
+            "bolets",
+            "seta",
+            "setas",
+            "69672"
+          ],
+          "titol": "Champiñón grande",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69672",
+              "image": "https://prod-mercadona.imgix.net/images/4920b19b6bc77098a6a4f9350b3539df.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "271593",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/271593_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "nugget",
+            "nuggets",
+            "vegetal",
+            "vegetals",
+            "60530"
+          ],
+          "titol": "Nuggets vegetales con proteina de soja y guisante",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "60530",
+              "image": "https://prod-mercadona.imgix.net/images/2d38b266b51a09b5af7a0ffc643bf05e.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "010394",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/010394_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "queso",
+            "formatge",
+            "rallado",
+            "ratllat",
+            "mozzarella",
+            "paquete",
+            "paquet",
+            "bossa",
+            "bolsa",
+            "sobre",
+            "51110"
+          ],
+          "titol": "Queso rallado",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "51110",
+              "image": "https://prod-mercadona.imgix.net/images/78c2ab6019d6ae5ef8934ee4a10cef80.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "712501",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/712501_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "tomate",
+            "tomaquet",
+            "sencer",
+            "entero",
+            "pelat",
+            "pelado",
+            "natural",
+            "bote",
+            "pot",
+            "llauna",
+            "lata",
+            "16041"
+          ],
+          "titol": "Tomate entero pelado",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "16041",
+              "image": "https://prod-mercadona.imgix.net/images/ac52cbb8d946b885ef23b185a042c895.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "132074",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/132074_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "atun",
+            "tonyina",
+            "claro",
+            "calvo",
+            "lata",
+            "llauna",
+            "18018"
+          ],
+          "titol": "Atún claro al natural",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "18018",
+              "image": "https://prod-mercadona.imgix.net/images/69aa188c64eb23f4855d6739832b09c1.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "841527",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/841527_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "canelons",
+            "canelon",
+            "canelo",
+            "86601"
+          ],
+          "titol": "Canelones",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "86601",
+              "image": "https://prod-mercadona.imgix.net/images/ef9d550d315fd697b4c8d117478a0fb0.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "203215",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/203215_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "tomate",
+            "tomaquet",
+            "ratllat",
+            "rallado",
+            "69938"
+          ],
+          "titol": "Tomate rallado",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69938",
+              "image": "https://prod-mercadona.imgix.net/images/4bec5b1ddd1915ecba5b1a8bd2a64118.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "186169",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/186169_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "ensaladilla",
+            "61101"
+          ],
+          "titol": "Ensaladilla",
+          "diesCompra": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "61101",
+              "image": "https://prod-mercadona.imgix.net/images/5f63140a8bf12dba2fdeab8965262cac.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "673183",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/673183_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "esparrago",
+            "esparrec",
+            "69656"
+          ],
+          "titol": "Espárragos",
+          "diesCompra": "1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69656",
+              "image": "https://prod-mercadona.imgix.net/images/065bc28929758f496bd5e60660d44728.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "335221",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/335221_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "gyoza",
+            "congelado",
+            "congelat",
+            "23155"
+          ],
+          "titol": "Gyozas congeladas",
+          "diesCompra": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "23155",
+              "image": "https://prod-mercadona.imgix.net/images/701ac0f02ecae7317070866fcfb7e662.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "695580",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/695580_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "empanada",
+            "atun",
+            "tonyina",
+            "84284"
+          ],
+          "titol": "Empanada de atún",
+          "diesCompra": "1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-0-1-1-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "84284",
+              "image": "https://prod-mercadona.imgix.net/images/af643679aebe19a4769c91976f9585b1.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "974537",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/974537_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "pasta",
+            "linguine",
+            "tallarin",
+            "tallarines",
+            "6246",
+            "fideu",
+            "noodle",
+            "noodles",
+            "fideus"
+          ],
+          "titol": "Tallarines",
+          "diesCompra": "1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "6246",
+              "image": "https://prod-mercadona.imgix.net/images/0cebc9f6f588b43df4467fcd3bdb6e6b.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "325856",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/325856_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "hamburguesa",
+            "vegetal",
+            "congelat",
+            "86510"
+          ],
+          "titol": "Hamburguesa vegetal",
+          "diesCompra": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "86510",
+              "image": "https://prod-mercadona.imgix.net/images/77fb37ed06851195c6a27e5ffc1cd879.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "361358",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/361358_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "pizza",
+            "margerita",
+            "margarita",
+            "63585"
+          ],
+          "titol": "Pizza Fresca Margarita",
+          "diesCompra": "1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "63585",
+              "image": "https://prod-mercadona.imgix.net/images/73685e661fc9929bcaa7b6ee454a59d7.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "266914",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/266914_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "pizza",
+            "atun",
+            "63501"
+          ],
+          "titol": "Pizza atún ultracongelada",
+          "diesCompra": "1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "63501",
+              "image": "https://prod-mercadona.imgix.net/images/6ebc3145073afe030fdbb0dc76c8cb1d.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "840568",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/840568_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "titol": "Crema de verduras(1) 500ml",
+          "diesCompra": "1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1",
+          "tags": [
+            "crema",
+            "verdures",
+            "verduras",
+            "tarrina",
+            "8722"
+          ],
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "8722",
+              "image": "https://prod-mercadona.imgix.net/images/44b302b7cc224fa2e1f045101371eff0.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "177737",
+              "image": "https://static.carrefour.es/hd_350x_/img_pim_food/177737_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Pollastre",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "tags": [
+            "pollastre",
+            "2832"
+          ],
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "2832",
+              "image": "https://prod-mercadona.imgix.net/images/3fc3a03f6a13e2172e8548fe108b7380.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "062836",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/062836_00_2.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "categorias.ensalades",
+      "productes": [
+        {
+          "tags": [
+            "maiz",
+            "dulce",
+            "pack",
+            "3",
+            "conserva",
+            "blat",
+            "de",
+            "moro",
+            "16712"
+          ],
+          "titol": "Maíz dulce",
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "16712",
+              "image": "https://prod-mercadona.imgix.net/images/63c02c99a04f34217723f9220d7edfcf.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "231899",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/231899_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "tags": [
+            "4653770000",
+            "86511",
+            "proba"
+          ],
+          "producte": {
+            "mercadona": {
+              "id": "86511",
+              "image": "https://prod-mercadona.imgix.net/images/343dac94a1a9b7c3e80c5ac33cdfdab5.jpg?fit=crop&h=200&w=200",
+              "unitats": 0,
+              "url": "https://tienda.mercadona.es/product/86511/mini-hamburguesas-vegetales-hacendado-con-espinacas-zanahoria-paquete",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "id": "4653770000",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/465377_00_1.jpg",
+              "unitats": 0,
+              "url": "https://www.carrefour.es/supermercado/espinacas-con-garbanzos-pasas-y-pinones-250-g/R-VC4AECOMM-465377/p",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Avellana tostada 0% sal añadida",
+          "diesCompra": "1-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0",
+          "tags": [
+            "avellana",
+            "tostada",
+            "torrada",
+            "pelada",
+            "sin",
+            "sense",
+            "sal",
+            "34025"
+          ],
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "34025",
+              "image": "https://prod-mercadona.imgix.net/images/2fe6ffcc848dc8e5e28ed47bcec81a4b.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "603823",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/603823_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Lechuga Iceberg",
+          "diesCompra": "0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-1-0-1-0-0-1",
+          "tags": [
+            "lechuga",
+            "iceberg",
+            "enciam",
+            "68130"
+          ],
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "68130",
+              "image": "https://prod-mercadona.imgix.net/images/e047afab489d1c6a9ffc9e7da122ce3f.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "235341",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/235341_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Pipas girasol naturales peladas",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "tags": [
+            "pipas",
+            "girasol",
+            "mondades",
+            "pipes",
+            "34193"
+          ],
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34193",
+              "image": "https://prod-mercadona.imgix.net/images/0c0426c30e108fd772328302f23d5459.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "729556",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/729556_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "categorias.postres",
+      "productes": [
+        {
+          "titol": "Preparado en polvo cuajada azucarada Royal sabor lácteo",
+          "tags": [
+            "32358",
+            "cuajada",
+            "cuajo",
+            "quallada"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "32358",
+              "image": "https://prod-mercadona.imgix.net/images/366e7796b4b0f87cace8da0d5f61d521.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "295104",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/295104_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "gelatina",
+            "arandano",
+            "arandanos",
+            "nabiu",
+            "nabius",
+            "pols",
+            "polvo",
+            "32369"
+          ],
+          "titol": "Gelatina de arándanos",
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "32369",
+              "image": "https://prod-mercadona.imgix.net/images/5a16936329e8693fef1afaa9c877e958.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "855096",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/855096_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "gelatina",
+            "sindria",
+            "sandia",
+            "pols",
+            "polvo"
+          ],
+          "titol": "Gelatina en polvo sandía",
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "32369",
+              "image": "https://prod-mercadona.imgix.net/images/5a16936329e8693fef1afaa9c877e958.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "449206",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/449206_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "gelatina",
+            "fresa",
+            "maduixa",
+            "pols",
+            "polvo",
+            "32367"
+          ],
+          "titol": "Preparado en polvo gelatina fresa",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "32367",
+              "image": "https://prod-mercadona.imgix.net/images/46887ceb6fba40ab5fcf15b95f077920.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "006161",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/006161_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "gelatina",
+            "piña",
+            "pinya",
+            "pols",
+            "polvo",
+            "32362"
+          ],
+          "titol": "Preparado en polvo gelatina piña",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "32362",
+              "image": "https://prod-mercadona.imgix.net/images/ad0fb4dc2d7f191bd0bff60661b54d9e.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "451339",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/451339_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "gelatina",
+            "limon",
+            "llimona",
+            "pols",
+            "polvo",
+            "32362"
+          ],
+          "titol": "Preparado en polvo gelatina limón",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "32362",
+              "image": "https://prod-mercadona.imgix.net/images/ad0fb4dc2d7f191bd0bff60661b54d9e.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "006196",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/006196_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.salses",
+      "productes": [
+        {
+          "tags": [
+            "soja",
+            "salsa",
+            "17360"
+          ],
+          "titol": "Salsa de soja",
+          "diesCompra": "1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "17360",
+              "image": "https://prod-mercadona.imgix.net/images/cf38529dd7bc417793b2132b18080899.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "335183",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/335183_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Salsa ostras",
+          "tags": [
+            "salsa",
+            "ostras"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "17347",
+              "image": "https://prod-mercadona.imgix.net/images/3846e7686991bc70251b8fa622359c4c.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "341396",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/341396_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Salsa burger",
+          "tags": [
+            "17347",
+            "salsa",
+            "hamburguesa",
+            "burger"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "17347",
+              "image": "https://prod-mercadona.imgix.net/images/3846e7686991bc70251b8fa622359c4c.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "819285",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/819285_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "salsa",
+            "teriyaki",
+            "okonomiyaki",
+            "17362"
+          ],
+          "titol": "Salsa teriyaki",
+          "diesCompra": "0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "17362",
+              "image": "https://prod-mercadona.imgix.net/images/bafb7fe4f0059d3dacd28356f8dabf10.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "334188",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/334188_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "mayonesa",
+            "maionesa",
+            "salsa",
+            "ligera",
+            "lleugera",
+            "15794"
+          ],
+          "titol": "Salsa ligera",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15794",
+              "image": "https://prod-mercadona.imgix.net/images/5e0c902d69b4c16ed124e230a9ad62fc.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "013497",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/013497_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "ketchup",
+            "salsa",
+            "23579"
+          ],
+          "titol": "Ketchup",
+          "diesCompra": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "23579",
+              "image": "https://prod-mercadona.imgix.net/images/560d3c1a007e5ab9c97cc0bb2b23b206.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "438868",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/438868_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.especias",
+      "productes": [
+        {
+          "tags": [
+            "perejil",
+            "julivert",
+            "tapon",
+            "verde",
+            "tap",
+            "verd",
+            "5599"
+          ],
+          "titol": "Perejil",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "5599",
+              "image": "https://prod-mercadona.imgix.net/images/222faf1290fbed1c9ad32598b1c1eaea.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851268",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851268_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "tomillo",
+            "farigola",
+            "tap",
+            "tapon",
+            "verd",
+            "verde",
+            "5547"
+          ],
+          "titol": "Tomillo",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "5547",
+              "image": "https://prod-mercadona.imgix.net/images/23cda8ba2719d64662af5acde3485411.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851270",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851270_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "albahaca",
+            "alfabrega",
+            "tap",
+            "tapon",
+            "verd",
+            "verde",
+            "34128"
+          ],
+          "titol": "Albahaca",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34128",
+              "image": "https://prod-mercadona.imgix.net/images/666740b544111126529a014431ba81f4.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851258",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851258_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "curcuma",
+            "tap",
+            "tapon",
+            "rojo",
+            "vermell",
+            "roig",
+            "34163"
+          ],
+          "titol": "Cúrcuma",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34163",
+              "image": "https://prod-mercadona.imgix.net/images/bbb23780061cfd84ea7c8b8890715380.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "992323",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/992323_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "romero",
+            "romani",
+            "tap",
+            "tapon",
+            "verd",
+            "verde",
+            "34175"
+          ],
+          "titol": "Romero",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34175",
+              "image": "https://prod-mercadona.imgix.net/images/d5b59c36668ad99469b2c16a3d90fad7.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "676622",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/676622_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "canela",
+            "canyella",
+            "molida",
+            "molta",
+            "tap",
+            "tapon",
+            "rojo",
+            "vermell",
+            "roig",
+            "bote",
+            "pot",
+            "34177"
+          ],
+          "titol": "Canela molida",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34177",
+              "image": "https://prod-mercadona.imgix.net/images/22948761cf10a9f149a06ec505fb8dcd.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851264",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851264_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "pimenton",
+            "pebre",
+            "roig",
+            "rojo",
+            "vermell",
+            "dulce",
+            "dolç",
+            "tap",
+            "tapon",
+            "rojo",
+            "vermell",
+            "roig",
+            "bote",
+            "pot",
+            "34184"
+          ],
+          "titol": "Pimentón dulce",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34184",
+              "image": "https://prod-mercadona.imgix.net/images/d01141fdec8c11a291e21f084d94f43c.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851262",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851262_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "pebre",
+            "popurri",
+            "mix",
+            "molinillo",
+            "molinet",
+            "tap",
+            "tapon",
+            "gris",
+            "bote",
+            "pot",
+            "67694"
+          ],
+          "titol": "Molinillo mix pimientas",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "67694",
+              "image": "https://prod-mercadona.imgix.net/images/16d512e03ea3f4513a43a085403cba3f.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851275",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851275_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "ajo",
+            "all",
+            "granulat",
+            "granulado",
+            "86656"
+          ],
+          "titol": "Ajo granulado",
+          "diesCompra": "0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "86656",
+              "image": "https://prod-mercadona.imgix.net/images/10f7ce7fe35de8f5b595db38a95a9cc5.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851265",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851265_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "oregano",
+            "orenga",
+            "tap",
+            "tapon",
+            "verd",
+            "verde",
+            "bote",
+            "pot",
+            "34180"
+          ],
+          "titol": "Orégano",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34180",
+              "image": "https://prod-mercadona.imgix.net/images/fa759d1c372c34655489d608e5ab9244.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "851271",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/851271_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "sal",
+            "fina",
+            "normal",
+            "1",
+            "kg",
+            "paquet",
+            "paquete",
+            "19731"
+          ],
+          "titol": "Sal fina",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "19731",
+              "image": "https://prod-mercadona.imgix.net/images/5097b3d7450edab7c2d9586299f5f3b9.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "234952",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/234952_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "cebolla",
+            "ceba",
+            "pols",
+            "polvo",
+            "tap",
+            "tapon",
+            "rojo",
+            "vermell",
+            "roig",
+            "pot",
+            "bote",
+            "34138"
+          ],
+          "titol": "Cebolla en polvo",
+          "diesCompra": "0-0-0-1-0-0-1-0-0-0-0-0-0-0-0-0-1-0-1-0-0-0-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34138",
+              "image": "https://prod-mercadona.imgix.net/images/4e60df323518b37ef8fcc6be6103526e.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "318618",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/318618_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.menjarAltres",
+      "productes": [
+        {
+          "tags": [
+            "gelatina",
+            "laminas",
+            "lamines",
+            "cola",
+            "de",
+            "pescado",
+            "32360"
+          ],
+          "titol": "Gelatina neutra en láminas",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "32360",
+              "image": "https://prod-mercadona.imgix.net/images/8e6418d2f4e459aa77f64f0fcd3a3f18.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "320254",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/320254_00_3.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "moro",
+            "palomita",
+            "palomitas",
+            "palomites",
+            "crispeta",
+            "crispetes",
+            "crispetas",
+            "de",
+            "34804"
+          ],
+          "titol": "Maíz palomitas",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34804",
+              "image": "https://prod-mercadona.imgix.net/images/a0ad6f19c226b0b8f3f9e10716d6b154.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "640654",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/640654_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Guisante fino ultracongelado",
+          "tags": [
+            "61215",
+            "guisante",
+            "pesol",
+            "congelat",
+            "congelado"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "61215",
+              "image": "https://prod-mercadona.imgix.net/images/1cfc769270faf8a5f58a20cdc8b0ef5b.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "181452",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/181452_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Chocolate con leche fundir",
+          "tags": [
+            "12533",
+            "xocolata",
+            "chocolate",
+            "llet",
+            "leche",
+            "amb",
+            "con",
+            "fundir",
+            "fondre"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "12533",
+              "image": "https://prod-mercadona.imgix.net/images/5230162330fda1f7d9e46152ba7a087d.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "030641",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/030641_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Chocolate blanco fundir",
+          "tags": [
+            "12543",
+            "xocolata",
+            "chocolate",
+            "blanc",
+            "blanco",
+            "blanca",
+            "fondre",
+            "fundir"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "12543",
+              "image": "https://prod-mercadona.imgix.net/images/3749599f8114cc0461cc708d7c101afd.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "254561",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/254561_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Nuez natural",
+          "tags": [
+            "34606",
+            "nuez",
+            "nou",
+            "anou",
+            "nueces",
+            "nous",
+            "anous",
+            "natural",
+            "clova",
+            "cascara"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "34606",
+              "image": "https://prod-mercadona.imgix.net/images/d1899ae163ff39ebd4f7f1896a0478a7.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "190776",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/190776_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Aceite de girasol refinado 0,2º",
+          "tags": [
+            "4041",
+            "oli",
+            "girasol",
+            "aceite",
+            "5L",
+            "5ltr",
+            "garrafa"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "4041",
+              "image": "https://prod-mercadona.imgix.net/images/8c16a9c5fe8126141815ce55e50cbcba.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "277575",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/277575_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Azúcar moreno de caña",
+          "tags": [
+            "22349",
+            "sucre",
+            "azucar",
+            "moreno",
+            "canya",
+            "caña"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "22349",
+              "image": "https://prod-mercadona.imgix.net/images/feede3851164a6adf1969b62beaacb36.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "181710",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/181710_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Nata para montar",
+          "tags": [
+            "10275",
+            "nata",
+            "muntar",
+            "montar",
+            "muntada",
+            "montada",
+            "pack",
+            "3"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "10275",
+              "image": "https://prod-mercadona.imgix.net/images/26fcf650a59ea910185beb6bfb2f6a09.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "465821",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/465821_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Yogur líquido desnatado Piña y Coco 0% m.g 0% sin azúcares añadidos",
+          "tags": [
+            "15660",
+            "batut",
+            "batido",
+            "coco",
+            "piña",
+            "pinya",
+            "y",
+            "i"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15660",
+              "image": "https://prod-mercadona.imgix.net/images/c9343e1589787d49d2694294f7410f85.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "256888",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/256888_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Bebida láctea con fresa y plátano",
+          "tags": [
+            "20108",
+            "batut",
+            "batido",
+            "platan",
+            "platano",
+            "fresa",
+            "maduixa",
+            "i",
+            "y"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "20108",
+              "image": "https://prod-mercadona.imgix.net/images/7c4a99300856a05b6140a38a40f73746.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "256890",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/256890_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "harina",
+            "farina",
+            "fluixa",
+            "floja",
+            "trigo",
+            "blat",
+            "de",
+            "29106"
+          ],
+          "titol": "Harina de trigo",
+          "diesCompra": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "29106",
+              "image": "https://prod-mercadona.imgix.net/images/709e881751a26e426fcf038f3e750cd0.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "253575",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/253575_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "cebolla",
+            "ceba",
+            "malla",
+            "2",
+            "2kg",
+            "kg",
+            "69079"
+          ],
+          "titol": "Cebollas",
+          "diesCompra": "0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-1-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69079",
+              "image": "https://prod-mercadona.imgix.net/images/c8d94c6563bfadc845df944fe483bfca.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "462147",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/462147_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "harina",
+            "farina",
+            "fuerza",
+            "força",
+            "29019"
+          ],
+          "titol": "Harina de fuerza",
+          "diesCompra": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-1-1-0-1-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "29019",
+              "image": "https://prod-mercadona.imgix.net/images/5af2f418e8038d398bdfbb02b07df051.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "034420",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/034420_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "harina",
+            "farina",
+            "integral",
+            "29134"
+          ],
+          "titol": "Harina integral",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "29134",
+              "image": "https://prod-mercadona.imgix.net/images/688210808a46f4c135ee3ff329c39679.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "034554",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/034554_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "titol": "Harina de maíz blanco precocida",
+          "tags": [
+            "29165",
+            "farina",
+            "harina",
+            "precocida",
+            "tortita",
+            "tortitas",
+            "pre-cocida",
+            "pre-cuita"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "29165",
+              "image": "https://prod-mercadona.imgix.net/images/32337176dea9d1ac6e0f9c2bed944d03.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "071845",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/071845_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "levadura",
+            "llevat",
+            "fresca",
+            "fresc",
+            "87811"
+          ],
+          "titol": "Levadura fresca Levital",
+          "diesCompra": "1-0-0-1-0-1-1-0-0-0-0-0-0-0-0-0-1-1-0-0-1-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "87811",
+              "image": "https://prod-mercadona.imgix.net/images/60a4066ca6c37e9cfec1eaaa4ddb5e81.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "924982",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/924982_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "zanahoria",
+            "pastanaga",
+            "1",
+            "1kg",
+            "kg",
+            "69586"
+          ],
+          "titol": "Zanahorias",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69586",
+              "image": "https://prod-mercadona.imgix.net/images/af98c74066ba2ea95e27171604524939.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "235422",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/235422_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "patata",
+            "malla",
+            "5",
+            "5kg",
+            "kg",
+            "69099"
+          ],
+          "titol": "Patatas",
+          "diesCompra": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-1-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69099",
+              "image": "https://prod-mercadona.imgix.net/images/38fc60049a266015255b0f8fd0c815d8.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "793632",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/793632_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "all",
+            "ajo",
+            "69297"
+          ],
+          "titol": "Ajos morados",
+          "diesCompra": "0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-0-1-0-1-0-0-1-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "69297",
+              "image": "https://prod-mercadona.imgix.net/images/6aef4488c873e4b8519b57151be424f3.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "496386",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/496386_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "huevo",
+            "ou",
+            "mediano",
+            "mitja",
+            "ahorro",
+            "24",
+            "ud",
+            "unitats",
+            "unidades",
+            "uds",
+            "31002"
+          ],
+          "titol": "Huevos 24 uds.",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "31002",
+              "image": "https://prod-mercadona.imgix.net/images/d179089e1efbcae2867142064fa8f632.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "707047",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/707047_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "maicena",
+            "maizena",
+            "harina",
+            "farina",
+            "maiz",
+            "blat",
+            "de",
+            "moro",
+            "9588"
+          ],
+          "titol": "Harina fina de maíz",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "9588",
+              "image": "https://prod-mercadona.imgix.net/images/16836e80b3a19d31db3bdfdbb44b25bd.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "535735",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/535735_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "hummus",
+            "80858"
+          ],
+          "titol": "Hummus",
+          "diesCompra": "1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "80858",
+              "image": "https://prod-mercadona.imgix.net/images/15667b13bbdba430cddb8e98106b583e.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "112532",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/112532_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "oli",
+            "aceite",
+            "garrafa",
+            "garrafon",
+            "4204"
+          ],
+          "titol": "Aceite de oliva suave",
+          "diesCompra": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "4204",
+              "image": "https://prod-mercadona.imgix.net/images/617bf49db3b4f79f5e311007e8cee4ab.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "000015",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/000015_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "mantequilla",
+            "mantega",
+            "sin",
+            "sense",
+            "sal",
+            "20716"
+          ],
+          "titol": "Mantequilla sin sal añadida",
+          "diesCompra": "1-1-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-1-0-1",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "20716",
+              "image": "https://prod-mercadona.imgix.net/images/48232d267bc61b1c1f2d4c7a192fa37f.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "337329",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/337329_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "titol": "Galetes",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "tags": [
+            "2557050000",
+            "14157",
+            "galetes",
+            "galeta",
+            "oreo"
+          ],
+          "producte": {
+            "mercadona": {
+              "id": "14157",
+              "image": "https://prod-mercadona.imgix.net/images/77aa3673bc39603fc56d5bfc3abf197a.jpg?fit=crop&h=200&w=200",
+              "unitats": 0,
+              "url": "https://tienda.mercadona.es/product/14157/galletas-rebuenas-hacendado-rellenas-chocolate-paquete"
+            },
+            "carrefour": {
+              "id": "2557050000",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/255705_00_1.jpg",
+              "unitats": 0,
+              "url": "https://www.carrefour.es/supermercado/galletas-de-chocolate-rellenas-de-crema-oreo-154-g/R-526510911/p"
+            }
+          }
+        },
+        {
+          "titol": "Azúcar blanco",
+          "diesCompra": "1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0-1-0",
+          "tags": [
+            "azucar",
+            "sucre",
+            "19897"
+          ],
+          "producte": {
+            "mercadona": {
+              "unitats": 2,
+              "id": "19897",
+              "image": "https://prod-mercadona.imgix.net/images/782bc97fd2960e24b4505e25b384a2d4.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 2,
+              "id": "463155",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/463155_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "categorias.fungiblesCuina",
+      "productes": [
+        {
+          "tags": [
+            "papel",
+            "paper",
+            "vegetal",
+            "de",
+            "forn",
+            "horno",
+            "sulfurizado",
+            "sulfuritzat",
+            "23608"
+          ],
+          "titol": "Papel vegetal Bosque Verde 38 x 42 cm",
+          "diesCompra": "1-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "23608",
+              "image": "https://prod-mercadona.imgix.net/images/605886a19237ab9712a3c8572caa375b.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "472483",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/472483_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "bicarbonato",
+            "bicarbonat",
+            "sodico",
+            "sodic",
+            "29007"
+          ],
+          "titol": "Bicarbonato sódico",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "29007",
+              "image": "https://prod-mercadona.imgix.net/images/ed1ebfa8c76af67dc21a385de31fc778.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "618618",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/618618_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "plats",
+            "platos",
+            "jabon",
+            "sabo",
+            "liquid",
+            "liquido",
+            "fairy",
+            "35998"
+          ],
+          "titol": "Lavavajillas Ultra concentrado Bosque Verde lavado a mano",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "35998",
+              "image": "https://prod-mercadona.imgix.net/images/043835ed009db4d773b28b454cb23985.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "490127",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/490127_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "papel",
+            "paper",
+            "alumini",
+            "aluminio",
+            "forn",
+            "horno",
+            "49000",
+            "plata"
+          ],
+          "titol": "Papel de Aluminio Bosque Verde",
+          "diesCompra": "0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "49000",
+              "image": "https://prod-mercadona.imgix.net/images/efcf89445e5bc8d8962ca09286252e7e.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "697644",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/697644_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "bolsa",
+            "bossa",
+            "basura",
+            "basuras",
+            "escombraries",
+            "organica",
+            "49704"
+          ],
+          "titol": "Bolsa de basura mini 10L",
+          "diesCompra": "0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "49704",
+              "image": "https://prod-mercadona.imgix.net/images/90cac4c88b022b0959926892a14c9310.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "316288",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/316288_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "bolsa",
+            "bossa",
+            "basura",
+            "basuras",
+            "escombraries",
+            "negra",
+            "negre",
+            "49750"
+          ],
+          "titol": "Bolsa de basura 30L",
+          "diesCompra": "0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "49750",
+              "image": "https://prod-mercadona.imgix.net/images/71e3aef4d796b6aef7b802da13603ac5.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "316277",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/316277_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "lavaplatos",
+            "rentaplats",
+            "pastillas",
+            "pastilles",
+            "sabo",
+            "jabon",
+            "42384"
+          ],
+          "titol": "Lavavajillas Todo en 1 Bosque Verde en pastillas lavado a máquina",
+          "diesCompra": "1-1-0-1-0-1-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "42384",
+              "image": "https://prod-mercadona.imgix.net/images/3582212cad0fd703602f758d145bb154.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "073479",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/073479_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "paper",
+            "papel",
+            "cuina",
+            "cocina",
+            "jumbo",
+            "mans",
+            "manos",
+            "ma",
+            "mano",
+            "49173"
+          ],
+          "titol": "Papel Multiusos Resistente Bosque Verde",
+          "diesCompra": "1-0-0-1-0-1-0-0-0-0-0-0-0-0-0-0-1-1-0-0-1-0-1-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "49173",
+              "image": "https://prod-mercadona.imgix.net/images/68a9193c73346578a71a679044434f6f.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "839977",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/839977_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.higienePersonal",
+      "productes": [
+        {
+          "tags": [
+            "mascarilla",
+            "mascareta",
+            "alisado",
+            "allisat",
+            "cabell",
+            "cabello",
+            "44283"
+          ],
+          "titol": "Mascarilla Frizz",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "44283",
+              "image": "https://prod-mercadona.imgix.net/images/74f853e39ddb65841e0efc0a2717304a.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "180752",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/180752_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "manos",
+            "mans",
+            "jabon",
+            "sabo",
+            "46700"
+          ],
+          "titol": "Jabón de manos hidratante con avena Deliplus líquido",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "46700",
+              "image": "https://prod-mercadona.imgix.net/images/017764d6607bd0c1a757b873ff32264f.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "336466",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/336466_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "bastoncillos",
+            "oidos",
+            "oides",
+            "bastonets",
+            "hisopos",
+            "isopos",
+            "hisop",
+            "isop",
+            "79007"
+          ],
+          "titol": "Bastoncillos de algodón 100% Deliplus",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "79007",
+              "image": "https://prod-mercadona.imgix.net/images/2696a6d02d7f56727de46da8e5eb37ff.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "971632",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/971632_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "frizz",
+            "cabell",
+            "cabello",
+            "44284"
+          ],
+          "titol": "Hidrocrema Liss Frizz Control",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "44284",
+              "image": "https://prod-mercadona.imgix.net/images/746a39bd0c6135b8999076d2e014b8c5.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "312357",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/312357_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "gel",
+            "baño",
+            "bany",
+            "sabo",
+            "jabon",
+            "44909"
+          ],
+          "titol": "Gel de baño leche & miel Deliplus piel normal",
+          "diesCompra": "1-0-1-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "44909",
+              "image": "https://prod-mercadona.imgix.net/images/677a3acd8c96c0b09c00454be3c8ce50.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "141076",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/141076_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "paper",
+            "papel",
+            "wc",
+            "higienico",
+            "higienic",
+            "47818"
+          ],
+          "titol": "Papel higiénico Doble Rollo Bosque Verde",
+          "diesCompra": "1-1-0-0-0-1-0-0-0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "47818",
+              "image": "https://prod-mercadona.imgix.net/images/2114d726e660470b9eea54e72125280a.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "712411",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/712411_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        },
+        {
+          "tags": [
+            "champu",
+            "natural",
+            "cabell",
+            "cabello",
+            "44335"
+          ],
+          "titol": "Champú Natural",
+          "diesCompra": "1-0-1-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "44335",
+              "image": "https://prod-mercadona.imgix.net/images/e0ad86a39e5c601800fa370c8c092330.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "643688",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/643688_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          },
+          "supermercat": "carrefour"
+        }
+      ]
+    },
+    {
+      "title": "categorias.netejaLavabo",
+      "productes": [
+        {
+          "tags": [
+            "estropajo",
+            "fregall",
+            "metall",
+            "acero",
+            "acer",
+            "71344"
+          ],
+          "titol": "Estropajo acero inoxidable",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "71344",
+              "image": "https://prod-mercadona.imgix.net/images/2e923cc2aa0e02a29880e277688f8936.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "930952",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/930952_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "desatascador",
+            "gel",
+            "43042"
+          ],
+          "titol": "Desatascador Turbo Bosque Verde en gel",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "43042",
+              "image": "https://prod-mercadona.imgix.net/images/4215c758f21d436ed9fcd38580c7c3ae.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "487704",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/487704_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "sosa",
+            "caustica",
+            "perlas",
+            "perles",
+            "23412"
+          ],
+          "titol": "Sosa cáustica Bosque Verde",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "23412",
+              "image": "https://prod-mercadona.imgix.net/images/2d07f18fd1827d15f5eeb40b18479181.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "436699",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/436699_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "suavizante",
+            "suavitzant",
+            "azul",
+            "blau",
+            "roba",
+            "ropa",
+            "rentadora",
+            "lavadora",
+            "40732"
+          ],
+          "titol": "Suavizante ropa Azul Bosque Verde concentrado",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "40732",
+              "image": "https://prod-mercadona.imgix.net/images/2f952919adf59294ae11710bfb380ed6.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "837610",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/837610_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "estropajo",
+            "fregall",
+            "esponja",
+            "verd",
+            "verda",
+            "71380"
+          ],
+          "titol": "Estropajo suciedad resistente",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "71380",
+              "image": "https://prod-mercadona.imgix.net/images/ac82796dad65519060c63a148108a1fb.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "215680",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/215680_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "tags": [
+            "sabo",
+            "jabon",
+            "masella",
+            "marsella",
+            "roba",
+            "ropa",
+            "rentadora",
+            "lavadora",
+            "liquido",
+            "liquid",
+            "40180"
+          ],
+          "titol": "Detergente ropa de Marsella",
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "40180",
+              "image": "https://prod-mercadona.imgix.net/images/7d77f6fc6efd4e5bc9f40bd941c1f13f.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "841532",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/841532_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Blanqueante ropa",
+          "tags": [
+            "15679",
+            "blanquejador",
+            "blanqueador",
+            "roba",
+            "ropa",
+            "blanqueante",
+            "percarbonato",
+            "sabo"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "15679",
+              "image": "https://prod-mercadona.imgix.net/images/4eeed51e4f131ac1a777f20b6a1a6015.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "747910",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/747910_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Lejía normal Tradicional Bosque Verde",
+          "tags": [
+            "43075",
+            "lejia",
+            "lejía"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "43075",
+              "image": "https://prod-mercadona.imgix.net/images/08774cc4eb549b55b3cfa8fd9604a468.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "227732",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/227732_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        },
+        {
+          "titol": "Gel desincrustante",
+          "tags": [
+            "43028",
+            "limpiador",
+            "netejador",
+            "gel",
+            "wc",
+            "water",
+            "retrete",
+            "desincrustante",
+            "desincrustant"
+          ],
+          "afegitUser": false,
+          "diesCompra": "0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+          "producte": {
+            "mercadona": {
+              "unitats": 1,
+              "id": "43028",
+              "image": "https://prod-mercadona.imgix.net/images/fe5423e0722bd05495d115f651839d47.jpg?fit=crop&h=200&w=200",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            },
+            "carrefour": {
+              "unitats": 1,
+              "id": "290151",
+              "image": "https://static.carrefour.es/hd_510x_/img_pim_food/290151_00_1.jpg",
+              "url": "",
+              "prod": "",
+              "prodId": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "compresManuals": [
+    {
+      "tags": [
+        "cacao",
+        "en",
+        "pols",
+        "polvo",
+        "sin",
+        "sense",
+        "azucar",
+        "sucre",
+        "22580"
+      ],
+      "titol": "Cacao puro en polvo",
+      "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+      "producte": {
+        "mercadona": {
+          "unitats": 1,
+          "id": "22580",
+          "image": "https://prod-mercadona.imgix.net/images/a242186d5fa01c0e32a85edf624c0ff4.jpg?fit=crop&h=200&w=200",
+          "url": "",
+          "prod": "",
+          "prodId": ""
+        },
+        "carrefour": {
+          "unitats": 1,
+          "id": "547966",
+          "image": "https://static.carrefour.es/hd_510x_/img_pim_food/547966_00_1.jpg",
+          "url": "",
+          "prod": "",
+          "prodId": ""
+        }
+      },
+      "incrementDecrement": false,
+      "supermercat": "carrefour"
+    }
+  ],
+  "compresDone": [
+    {
+      "date": 1728399886150,
+      "nSetmana": 19,
+      "supermercat": "carrefour",
+      "productes": [
+        {
+          "id": "102355",
+          "unitats": 2
+        },
+        {
+          "id": "177737",
+          "unitats": 2
+        },
+        {
+          "id": "385337",
+          "unitats": 1
+        },
+        {
+          "id": "335221",
+          "unitats": 1
+        },
+        {
+          "id": "215680",
+          "unitats": 1
+        },
+        {
+          "id": "535735",
+          "unitats": 1
+        },
+        {
+          "id": "112532",
+          "unitats": 2
+        },
+        {
+          "id": "512983",
+          "unitats": 1
+        },
+        {
+          "id": "073479",
+          "unitats": 1
+        },
+        {
+          "id": "971656",
+          "unitats": 1
+        },
+        {
+          "id": "299532",
+          "unitats": 1
+        },
+        {
+          "id": "815142",
+          "unitats": 1
+        },
+        {
+          "id": "802405",
+          "unitats": 1
+        },
+        {
+          "id": "712411",
+          "unitats": 2
+        },
+        {
+          "id": "840568",
+          "unitats": 2
+        },
+        {
+          "id": "266914",
+          "unitats": 2
+        }
+      ]
+    },
+    {
+      "date": 1744893145900,
+      "nSetmana": 20,
+      "supermercat": "carrefour",
+      "productes": [
+        {
+          "id": "361358",
+          "unitats": 1
+        },
+        {
+          "id": "034420",
+          "unitats": 1
+        },
+        {
+          "id": "253575",
+          "unitats": 1
+        },
+        {
+          "id": "112532",
+          "unitats": 2
+        },
+        {
+          "id": "438868",
+          "unitats": 1
+        },
+        {
+          "id": "971656",
+          "unitats": 1
+        },
+        {
+          "id": "235341",
+          "unitats": 1
+        },
+        {
+          "id": "924982",
+          "unitats": 1
+        },
+        {
+          "id": "839977",
+          "unitats": 1
+        },
+        {
+          "id": "472483",
+          "unitats": 1
+        },
+        {
+          "id": "689490",
+          "unitats": 1
+        },
+        {
+          "id": "840568",
+          "unitats": 1
+        },
+        {
+          "id": "266914",
+          "unitats": 1
+        }
+      ]
+    },
+    {
+      "date": 1744893296348,
+      "nSetmana": 21,
+      "supermercat": "carrefour",
+      "productes": [
+        {
+          "id": "496386",
+          "unitats": 1
+        },
+        {
+          "id": "724474",
+          "unitats": 1
+        },
+        {
+          "id": "197726",
+          "unitats": 1
+        },
+        {
+          "id": "603823",
+          "unitats": 2
+        },
+        {
+          "id": "462147",
+          "unitats": 1
+        },
+        {
+          "id": "177737",
+          "unitats": 2
+        },
+        {
+          "id": "974537",
+          "unitats": 1
+        },
+        {
+          "id": "145070",
+          "unitats": 1
+        },
+        {
+          "id": "335221",
+          "unitats": 1
+        },
+        {
+          "id": "112532",
+          "unitats": 2
+        },
+        {
+          "id": "336466",
+          "unitats": 1
+        },
+        {
+          "id": "438868",
+          "unitats": 1
+        },
+        {
+          "id": "971656",
+          "unitats": 1
+        },
+        {
+          "id": "640654",
+          "unitats": 1
+        },
+        {
+          "id": "337329",
+          "unitats": 1
+        },
+        {
+          "id": "793632",
+          "unitats": 1
+        },
+        {
+          "id": "851268",
+          "unitats": 1
+        },
+        {
+          "id": "840568",
+          "unitats": 1
+        },
+        {
+          "id": "266914",
+          "unitats": 1
+        },
+        {
+          "id": "062836",
+          "unitats": 1
+        }
+      ]
+    },
+    {
+      "date": 1744893314699,
+      "nSetmana": 21,
+      "supermercat": "carrefour",
+      "productes": [
+        {
+          "id": "496386",
+          "unitats": 1
+        },
+        {
+          "id": "724474",
+          "unitats": 1
+        },
+        {
+          "id": "197726",
+          "unitats": 1
+        },
+        {
+          "id": "603823",
+          "unitats": 2
+        },
+        {
+          "id": "462147",
+          "unitats": 1
+        },
+        {
+          "id": "177737",
+          "unitats": 2
+        },
+        {
+          "id": "974537",
+          "unitats": 1
+        },
+        {
+          "id": "145070",
+          "unitats": 1
+        },
+        {
+          "id": "335221",
+          "unitats": 1
+        },
+        {
+          "id": "112532",
+          "unitats": 2
+        },
+        {
+          "id": "336466",
+          "unitats": 1
+        },
+        {
+          "id": "438868",
+          "unitats": 1
+        },
+        {
+          "id": "971656",
+          "unitats": 1
+        },
+        {
+          "id": "640654",
+          "unitats": 1
+        },
+        {
+          "id": "337329",
+          "unitats": 1
+        },
+        {
+          "id": "793632",
+          "unitats": 1
+        },
+        {
+          "id": "851268",
+          "unitats": 1
+        },
+        {
+          "id": "840568",
+          "unitats": 2
+        },
+        {
+          "id": "266914",
+          "unitats": 2
+        },
+        {
+          "id": "062836",
+          "unitats": 1
+        }
+      ]
+    }
+  ],
+  "sessio": {
+    "numSetmana": 22,
+    "dateUltimaCompra": 1744893314699
+  }
+}

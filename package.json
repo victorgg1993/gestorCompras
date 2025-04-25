@@ -1,0 +1,22 @@
+{
+  "name": "gestorcompras",
+  "version": "1.6.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3037 node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "puppeteer": "^24.6.1",
+    "@ngx-translate/core": "^16.0.4",
+    "@ngx-translate/http-loader": "^16.0.1"
+  }
+}

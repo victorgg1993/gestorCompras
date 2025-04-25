@@ -1,0 +1,82 @@
+{
+  "accept": "Accept",
+  "cancel": "Cancel",
+  "columnaEsquerra": {
+    "searchPlaceholder": "Search"
+  },
+  "columnaCentral": {
+    "searchPlaceholder": "Filter by name"
+  },
+  "columnaDreta": {
+    "text": {
+      "addProduct": "Add product",
+      "lastDateText": "Last purchase date",
+      "purchaseNumber": "purchase number",
+      "elements": "Elements",
+      "total": "Total"
+    },
+    "button": {
+      "before": "Previous",
+      "after": "Next",
+      "generateCookie": "Generate cookie",
+      "purchase": "Buy"
+    }
+  },
+  "dialog": {
+    "edit": {
+      "load": "Load"
+    },
+    "remove": {}
+  },
+  "categorias": {
+    "desdejuniEsporadic": "Occasional breakfast",
+    "desdejuniRecurrent": "Daily breakfast",
+    "dinarEsporadic": "Occasional lunch",
+    "dinarRecurrent": "Daily lunch",
+    "dinarReserva": "Backup lunch",
+    "soparEsporadic": "Occasional dinner",
+    "soparRecurrent": "Daily dinner",
+    "ensalades": "Salads",
+    "postres": "Desserts",
+    "salses": "Sauces",
+    "especias": "Spices",
+    "menjarAltres": "Other food",
+    "fungiblesCuina": "Kitchen consumables",
+    "higienePersonal": "Personal hygiene",
+    "netejaLavabo": "Bathroom cleaning"
+  },
+  "mesos": {
+    "gen": "January",
+    "feb": "February",
+    "mar": "March",
+    "abr": "April",
+    "mai": "May",
+    "jun": "June",
+    "jul": "July",
+    "ago": "August",
+    "set": "September",
+    "oct": "October",
+    "nov": "November",
+    "des": "December"
+  },
+  "toast": {
+    "remove": {
+      "title": "Remove product",
+      "body": "You are gonna remove the product. There is no coming back. Are you sure?"
+    },
+    "addProduct": {
+      "ok": {
+        "title": "Success",
+        "body": "Request was success"
+      },
+      "error": {
+        "title": "Error!",
+        "body": "Error on sent request"
+      }
+    },
+    "cookie": {
+      "title": "Generate cookie",
+      "body": "Cookie generated!. Copied into your clipboard."
+    }
+  }
+}
