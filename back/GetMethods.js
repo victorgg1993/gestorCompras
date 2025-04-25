@@ -80,8 +80,6 @@ class GetMethods {
 
     let _resp = this.common.productExists(this.dbJson, _id, supermercat); // <--------- to-do: revisar
 
-    console.log('supermercat: ', supermercat);
-
     if (_resp.exists == false) {
       this.https
         .get(`https://tienda.mercadona.es/api/v1_1/products/${_id}`)

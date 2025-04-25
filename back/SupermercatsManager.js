@@ -44,18 +44,11 @@ class SupermercatManager {
   }
 
   getProductCarrefour(url) {
-    console.log('ch0');
-
     return new Promise((resolve, reject) => {
-      console.log('ch0.1');
-
       // format "predecible"
       if (url.includes('www.carrefour.es')) {
-        console.log('ch0.2');
         //
         if (url.includes('R-VC4AECOMM')) {
-          console.log('ch0.3');
-
           let prodID = url.split('/');
           prodID = prodID[prodID.length - 2].split('-').at(-1);
 
@@ -67,8 +60,6 @@ class SupermercatManager {
         }
         // format "no predecible"
         else {
-          console.log('ch0.4');
-
           this.getProducteNoPredecibleCarrefour(url)
             .then((html) => {
               const match = html.match(/"sku"\s*:\s*"(\d+)"/);
@@ -84,49 +75,39 @@ class SupermercatManager {
                   productID: prodID
                 });
               } else {
-                console.log('SKU no encontrado');
-                console.log('2 error: ', err);
-                // reject('non-processable');
-                reject(JSON.stringify(err));
+                console.log('SKU no encontrado: ', err);
+                reject('non-processable');
               }
             })
             .catch((err) => {
-              console.log('1 error: ', err);
-              // reject('non-processable');
-              reject(JSON.stringify(err));
+              console.log('getProducteNoPredecibleCarrefour() error: ', err);
+              reject('non-processable');
             });
         }
       }
       //
       else {
-        console.log('not-valid-url');
         reject('not-valid-url');
       }
     });
   }
 
   getProducteNoPredecibleCarrefour(url) {
-    console.log('ch1');
     return new Promise((resolve, reject) => {
       puppeteer
         .launch({
           headless: true,
-          executablePath: '/opt/render/project/.render/chrome/opt/google/chrome/chrome',
+          executablePath:
+            '/opt/render/project/.render/chrome/opt/google/chrome/chrome',
           args: ['--no-sandbox', '--disable-setuid-sandbox']
         })
         .then((browser) => {
-          console.log('ch2');
-
           return browser.newPage().then((page) => {
-            console.log('ch3');
-
             return page
               .setUserAgent(
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
               )
               .then(() => {
-                console.log('ch4');
-
                 // Opciones para manejar las cookies y las cabeceras
                 return page.setExtraHTTPHeaders({
                   'Accept-Language': 'en-US,en;q=0.9',
@@ -135,11 +116,9 @@ class SupermercatManager {
                 });
               })
               .then(() => {
-                console.log('ch5');
                 return page.goto(url, { waitUntil: 'domcontentloaded' });
               })
               .then(() => {
-                console.log('ch6');
                 return page.content();
               })
               .then((html) => {
@@ -147,7 +126,6 @@ class SupermercatManager {
                 resolve(html); // Resolvemos la promesa con el código fuente de la página
               })
               .catch((error) => {
-                console.log('ch7 error: ', error);
                 browser.close();
                 reject(JSON.stringify(error)); // Rechazamos la promesa si hay algún error
               });
