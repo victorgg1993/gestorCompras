@@ -76,11 +76,12 @@ class SupermercatManager {
                 });
               } else {
                 console.log('SKU no encontrado');
+                console.log('2 error: ', err);
                 reject('non-processable');
               }
             })
             .catch((err) => {
-              console.log('error: ', err);
+              console.log('1 error: ', err);
               reject('non-processable');
             });
         }
@@ -110,6 +111,7 @@ class SupermercatManager {
   }
 
   getProducteFotutCarrefour(url) {
+    console.log('ch1');
     return new Promise((resolve, reject) => {
       puppeteer
         .launch({
@@ -117,13 +119,19 @@ class SupermercatManager {
           args: ['--no-sandbox', '--disable-setuid-sandbox']
         })
         .then((browser) => {
+          console.log('ch2');
+
           return browser.newPage().then((page) => {
+            console.log('ch3');
+
             // Establece un user-agent para parecer un navegador real
             return page
               .setUserAgent(
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
               )
               .then(() => {
+                console.log('ch4');
+
                 // Opciones para manejar las cookies y las cabeceras
                 return page.setExtraHTTPHeaders({
                   'Accept-Language': 'en-US,en;q=0.9',
@@ -132,9 +140,11 @@ class SupermercatManager {
                 });
               })
               .then(() => {
+                console.log('ch5');
                 return page.goto(url, { waitUntil: 'domcontentloaded' });
               })
               .then(() => {
+                console.log('ch6');
                 return page.content();
               })
               .then((html) => {

@@ -55,6 +55,8 @@ export class AppComponent implements OnInit {
   public bodyToastAddError = '';
   public titleRemoveProduct = '';
   public bodyRemoveProduct = '';
+  public bodyPurchaseProduct = '';
+  public titlePurchaseProduct = '';
 
   // -------------------------------------------------- aqui estan tots els que es mostraran
   vistaProximaCompra: Producte[] = [dummyProducte];
@@ -88,25 +90,11 @@ export class AppComponent implements OnInit {
     this.setLanguage();
 
     // Primer cop
-    this.translateTitleCookie();
-    this.translateBodyCookie();
-    this.translateTitleAdd();
-    this.translateBodyAdd();
-    this.translateTitleAddError();
-    this.translateBodyAddError();
-    this.translateTitleRemove();
-    this.translateBodyRemove();
+    this.getTranslations();
 
     // Canvis
     this.translateService.onLangChange.subscribe((event: any) => {
-      this.translateTitleCookie();
-      this.translateBodyCookie();
-      this.translateTitleAdd();
-      this.translateBodyAdd();
-      this.translateTitleAddError();
-      this.translateBodyAddError();
-      this.translateTitleRemove();
-      this.translateBodyRemove();
+      this.getTranslations();
     });
   }
 
@@ -261,8 +249,8 @@ export class AppComponent implements OnInit {
 
   public ferCompra() {
     this.dialogConfirm.confirm({
-      header: `Alerta compra`,
-      message: `Operació irreversible, estàs segur?`,
+      header: this.titlePurchaseProduct,
+      message: this.bodyPurchaseProduct,
       icon: 'pi pi-exclamation-triangle',
       accept: () => this.acceptFerCompra(),
       reject: () => {},
@@ -336,7 +324,7 @@ export class AppComponent implements OnInit {
       },
     });
 
-    this.ref.onClose.subscribe((ret) => {
+    this.ref.onClose.subscribe((ret: any) => {
       // coses que no volem enviar:
       try {
         if (ret.data) {
@@ -420,7 +408,7 @@ export class AppComponent implements OnInit {
       },
     });
 
-    this.ref.onClose.subscribe((data) => {
+    this.ref.onClose.subscribe((data: any) => {
       try {
         if (data.acceptar) {
           // coses que no es volen enviar al back
@@ -498,6 +486,19 @@ export class AppComponent implements OnInit {
     localStorage.setItem('lang', codigo.value);
   }
 
+  getTranslations() {
+    this.translateTitleCookie();
+    this.translateBodyCookie();
+    this.translateTitleAdd();
+    this.translateBodyAdd();
+    this.translateTitleAddError();
+    this.translateBodyAddError();
+    this.translateTitleRemove();
+    this.translateBodyRemove();
+    this.translatePurchaseTitle();
+    this.translatePurchaseBody();
+  }
+
   translateTitleCookie() {
     this.translateService
       .get('toast.cookie.title')
@@ -559,6 +560,22 @@ export class AppComponent implements OnInit {
       .get('toast.remove.body')
       .subscribe((traduccion: string) => {
         this.bodyRemoveProduct = traduccion;
+      });
+  }
+
+  translatePurchaseTitle() {
+    this.translateService
+      .get('toast.purchasePopup.title')
+      .subscribe((traduccion: string) => {
+        this.titlePurchaseProduct = traduccion;
+      });
+  }
+
+  translatePurchaseBody() {
+    this.translateService
+      .get('toast.purchasePopup.body')
+      .subscribe((traduccion: string) => {
+        this.bodyPurchaseProduct = traduccion;
       });
   }
 
