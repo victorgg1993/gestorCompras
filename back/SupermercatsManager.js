@@ -111,6 +111,7 @@ class SupermercatManager {
       puppeteer
         .launch({
           headless: true,
+          executablePath: puppeteer.executablePath(), // 🔧 Esto es clave
           args: ['--no-sandbox', '--disable-setuid-sandbox']
         })
         .then((browser) => {
