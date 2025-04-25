@@ -111,7 +111,7 @@ class SupermercatManager {
       puppeteer
         .launch({
           headless: true,
-          executablePath: puppeteer.executablePath(),
+          executablePath: '/opt/render/project/.render/chrome/opt/google/chrome/chrome',
           args: ['--no-sandbox', '--disable-setuid-sandbox']
         })
         .then((browser) => {

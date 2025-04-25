@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "PORT=3037 node ./index.js",
-    "postinstall": "node install-chrome.js"
+    "start:prod": "./render-build.sh && node ./index.js",
   },
   "author": "",
   "license": "ISC",
