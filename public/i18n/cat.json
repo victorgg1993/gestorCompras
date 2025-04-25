@@ -74,6 +74,10 @@
         "body": "Error en la petició"
       }
     },
+    "purchasePopup": {
+      "title": "Alerta compra",
+      "body": "Operació irreversible, estàs segur?"
+    },
     "cookie": {
       "title": "Generar cookie",
       "body": "Cookie generada!. La tens en el clipboard."

@@ -74,6 +74,10 @@
         "body": "Error on sent request"
       }
     },
+    "purchasePopup": {
+      "title": "Purchase alert",
+      "body": "Irreversible operation, are you sure?"
+    },
     "cookie": {
       "title": "Generate cookie",
       "body": "Cookie generated!. Copied into your clipboard."
