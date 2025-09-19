@@ -11,7 +11,7 @@ const PostMethods = require('./back/PostMethods');
 const SupermercatManager = require('./back/SupermercatsManager');
 
 const app = express();
-const PORT = process.env.PORT; // ha d'encaixar amb el port del docker-compose.yml si el fas servir
+const PORT = process.env.PORT | 3037; // ha d'encaixar amb el port del docker-compose.yml si el fas servir
 const IP = 'localhost';
 
 app.use(cors());

@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const axios = require('axios');
 
 class SupermercatManager {
-  constructor(app) {}
+  constructor(app) { }
 
   getProductInfo(supermercat, url) {
     switch (supermercat) {
@@ -18,10 +18,9 @@ class SupermercatManager {
     const regex = /<meta[^>]+content="([^"]+)"/g;
 
     return new Promise((resolve, reject) => {
-      axios
-        .get(url)
+      this.getProductoPupeteer(url, 'mercadona')
         .then((res) => {
-          const matches = [...res.data.matchAll(regex)].map((m) => m[1]);
+          const matches = [...res.matchAll(regex)].map((m) => m[1]);
           const jpgMatches = matches.filter((url) => url.includes('.jpg'));
 
           if (jpgMatches) {
@@ -60,7 +59,7 @@ class SupermercatManager {
         }
         // format "no predecible"
         else {
-          this.getProducteNoPredecibleCarrefour(url)
+          this.getProductoPupeteer(url, 'carrefour')
             .then((html) => {
               const match = html.match(/"sku"\s*:\s*"(\d+)"/);
 
@@ -80,26 +79,35 @@ class SupermercatManager {
               }
             })
             .catch((err) => {
-              console.log('getProducteNoPredecibleCarrefour() error: ', err);
+              console.log('getProductoPupeteer() error: ', err);
               reject('non-processable');
             });
         }
       }
       //
       else {
+        console.log("err3");
         reject('not-valid-url');
       }
     });
   }
 
-  getProducteNoPredecibleCarrefour(url) {
+  getProductoPupeteer(url, supermercado) {
+    const isLocal = (!!process.env.IS_LOCAL) | false;
+    const execPath = isLocal ? '/usr/bin/chromium' : '/opt/render/project/.render/chrome/opt/google/chrome/chrome';
+
     return new Promise((resolve, reject) => {
       puppeteer
         .launch({
           headless: true,
-          executablePath:
-            '/opt/render/project/.render/chrome/opt/google/chrome/chrome',
-          args: ['--no-sandbox', '--disable-setuid-sandbox']
+          executablePath: execPath,
+          args: [
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
+            "--disable-dev-shm-usage",  // evita problemas con /dev/shm
+            "--disable-gpu",
+            "--disable-software-rasterizer"
+          ]
         })
         .then((browser) => {
           return browser.newPage().then((page) => {
@@ -116,7 +124,13 @@ class SupermercatManager {
                 });
               })
               .then(() => {
-                return page.goto(url, { waitUntil: 'domcontentloaded' });
+                switch (supermercado) {
+                  case 'carrefour':
+                    return page.goto(url, { waitUntil: 'domcontentloaded' });
+
+                  case 'mercadona':
+                    return page.goto(url, { waitUntil: 'networkidle0' });
+                }
               })
               .then(() => {
                 return page.content();
@@ -131,7 +145,9 @@ class SupermercatManager {
               });
           });
         })
-        .catch(reject); // Rechazamos la promesa si hay algún error al lanzar el navegador
+        .catch((err) => { // Rechazamos la promesa si hay algún error al lanzar el navegador
+          reject(err);
+        });
     });
   }
 }

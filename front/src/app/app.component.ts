@@ -88,6 +88,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.setLanguage();
+    this.setSupermercat();
 
     // Primer cop
     this.getTranslations();
@@ -148,7 +149,7 @@ export class AppComponent implements OnInit {
         // aprofitem i generem les automàtiques. No és lo millor que això vagi aquí
         this.compres.generarCompresAutomatiques();
       })
-      .catch((err) => {});
+      .catch((err) => { });
   }
 
   public getCompra(nCompra: any) {
@@ -253,7 +254,7 @@ export class AppComponent implements OnInit {
       message: this.bodyPurchaseProduct,
       icon: 'pi pi-exclamation-triangle',
       accept: () => this.acceptFerCompra(),
-      reject: () => {},
+      reject: () => { },
     });
   }
 
@@ -353,7 +354,7 @@ export class AppComponent implements OnInit {
               });
           }
         }
-      } catch (error) {}
+      } catch (error) { }
     });
   }
 
@@ -443,7 +444,7 @@ export class AppComponent implements OnInit {
               }
             });
         }
-      } catch (error) {}
+      } catch (error) { }
     });
   }
 
@@ -453,7 +454,7 @@ export class AppComponent implements OnInit {
       message: this.bodyRemoveProduct,
       icon: 'pi pi-exclamation-triangle',
       accept: () => this.acceptEliminarProducte(producte),
-      reject: () => {},
+      reject: () => { },
     });
   }
 
@@ -580,7 +581,17 @@ export class AppComponent implements OnInit {
   }
 
   // --------------------------------------------------
+  public setSupermercat() {
+    let supermercat = localStorage.getItem('supermercat') || '';
+
+    if (supermercat != '') {
+      this.common.superSeleccionat = JSON.parse(supermercat)
+      this.common.superSeleccionatSubject.next(JSON.parse(supermercat));
+    }
+  }
+
   public onSupermercatCanviat(event: any) {
+    localStorage.setItem('supermercat', JSON.stringify(event));
     this.common.superSeleccionatSubject.next(event);
   }
 

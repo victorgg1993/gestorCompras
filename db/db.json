@@ -4526,7 +4526,7 @@
       "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
       "producte": {
         "mercadona": {
-          "unitats": 1,
+          "unitats": 3,
           "id": "22580",
           "image": "https://prod-mercadona.imgix.net/images/a242186d5fa01c0e32a85edf624c0ff4.jpg?fit=crop&h=200&w=200",
           "url": "",
@@ -4534,9 +4534,40 @@
           "prodId": ""
         },
         "carrefour": {
-          "unitats": 1,
+          "unitats": 4,
           "id": "547966",
           "image": "https://static.carrefour.es/hd_510x_/img_pim_food/547966_00_1.jpg",
+          "url": "",
+          "prod": "",
+          "prodId": ""
+        }
+      },
+      "incrementDecrement": false,
+      "supermercat": "carrefour"
+    },
+    {
+      "tags": [
+        "cafe",
+        "descafeinado",
+        "descafeinat",
+        "soluble",
+        "22164"
+      ],
+      "titol": "Café soluble descafeinado",
+      "diesCompra": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+      "producte": {
+        "mercadona": {
+          "unitats": 2,
+          "id": "22164",
+          "image": "https://prod-mercadona.imgix.net/images/112aa2d3c995cb6ed9b74e6b7b2993e1.jpg?fit=crop&h=200&w=200",
+          "url": "",
+          "prod": "",
+          "prodId": ""
+        },
+        "carrefour": {
+          "unitats": 2,
+          "id": "230412",
+          "image": "https://static.carrefour.es/hd_510x_/img_pim_food/230412_00_1.jpg",
           "url": "",
           "prod": "",
           "prodId": ""

@@ -1,11 +1,11 @@
 {
   "name": "gestorcompras",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=3037 node ./index.js",
-    "start:prod": "./start.sh && node ./index.js"
+    "start": "PORT=3037 IS_LOCAL=true node ./index.js",
+    "start:prod": "PORT=3037 ./start.sh && node ./index.js"
   },
   "author": "",
   "license": "ISC",
